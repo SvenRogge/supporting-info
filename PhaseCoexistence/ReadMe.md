@@ -1,7 +1,9 @@
 # Table of contents
 
 This GitHub repository contains the input and raw output data accompanying the manuscript
+
 **Unraveling the Thermodynamic Criteria for Size-Dependent Spontaneous Phase Separation in Soft Porous Crystals**
+
 by Sven M.J. Rogge, Michel Waroquier, and Veronique Van Speybroeck.
 
 Additional information is available upon request from the authors. Please send a mail to Sven.Rogge@UGent.be for more information.
