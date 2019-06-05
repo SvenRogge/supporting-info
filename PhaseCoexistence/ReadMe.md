@@ -34,7 +34,6 @@ The MIL-53(Al)-F folder contains three subfolders:
 1. *ff*: contains the force field and the initial geometry used to perform the simulations
 2. *NPsT*: contains the python scripts for the $(N,P,  \bm \sigma_a =\bm 0, T)$  simulations
 3. *NVsT*: contains the python scripts for the $(N,V,  \bm \sigma_a =\bm 0, T)$  simulations, as well as the intermediate and final results of the pressure equations of state at 100 K, 300 K, and 500 K. These files contain two columns: the first column is the supercell volume (in ångström), the second column the averaged internal pressure (in MPa)
-4. 
 
 ## CoBDP
 
