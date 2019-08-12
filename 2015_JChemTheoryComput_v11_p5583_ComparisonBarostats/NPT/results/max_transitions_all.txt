@@ -1,0 +1,972 @@
+
+Berendsen 1ps 0.1 MPa
+run 1	1600000
+run 2	1600000
+run 3	1600000
+run 4	1600000
+run 5	1600000
+run 6	1600000
+run 7	1600000
+run 8	1600000
+run 9	1600000
+run 10	1600000
+
+Berendsen 1ps 0.3 MPa
+run 1	1600000
+run 2	1600000
+run 3	1600000
+run 4	1600000
+run 5	1600000
+run 6	1600000
+run 7	1600000
+run 8	1600000
+run 9	1600000
+run 10	1600000
+
+Berendsen 1ps 1.0 MPa
+run 1	1600000
+run 2	1600000
+run 3	1600000
+run 4	1600000
+run 5	1600000
+run 6	1600000
+run 7	1600000
+run 8	1600000
+run 9	1600000
+run 10	1600000
+
+Berendsen 1ps 3.0 MPa
+run 1	1600000
+run 2	1600000
+run 3	1600000
+run 4	1600000
+run 5	1600000
+run 6	1600000
+run 7	1600000
+run 8	1600000
+run 9	1600000
+run 10	1600000
+
+Berendsen 1ps 10.0 MPa
+run 1	1600000
+run 2	1600000
+run 3	1600000
+run 4	1600000
+run 5	1600000
+run 6	1600000
+run 7	1600000
+run 8	1600000
+run 9	1600000
+run 10	1600000
+
+Berendsen 1ps 30.0 MPa
+run 1	1600000
+run 2	1600000
+run 3	1600000
+run 4	1600000
+run 5	1600000
+run 6	1600000
+run 7	1600000
+run 8	1600000
+run 9	1600000
+run 10	1600000
+
+Berendsen 1ps 100.0 MPa
+run 1	1600000
+run 2	1600000
+run 3	1600000
+run 4	1600000
+run 5	1600000
+run 6	1600000
+run 7	1600000
+run 8	1600000
+run 9	1600000
+run 10	1600000
+
+Berendsen 1ps 300.0 MPa
+run 1	1600000
+run 2	1600000
+run 3	1600000
+run 4	1600000
+run 5	1600000
+run 6	1600000
+run 7	1600000
+run 8	1600000
+run 9	1600000
+run 10	1600000
+
+Berendsen 1ps 1000.0 MPa
+run 1	1600000
+run 2	1600000
+run 3	1600000
+run 4	1600000
+run 5	1600000
+run 6	1600000
+run 7	1600000
+run 8	1600000
+run 9	1600000
+run 10	1600000
+
+Langevin 1ps 0.1 MPa
+run 9	17600
+run 8	17959
+run 7	34542
+run 16	55905
+run 23	28725
+run 12	28688
+run 5	61664
+run 14	29546
+run 3	20311
+run 15	60770
+
+Langevin 1ps 0.3 MPa
+run 13	28327
+run 18	33268
+run 7	30622
+run 14	35689
+run 3	30506
+run 21	39694
+run 20	42706
+run 12	40561
+run 19	62366
+run 16	41985
+
+Langevin 1ps 1.0 MPa
+run 14	17023
+run 7	17354
+run 17	20861
+run 5	22278
+run 18	23861
+run 23	29403
+run 20	29144
+run 11	24608
+run 6	43386
+run 19	25597
+
+Langevin 1ps 3.0 MPa
+run 11	33697
+run 4	44795
+run 14	56607
+run 10	64308
+run 17	61045
+run 3	47676
+run 22	69275
+run 8	79410
+run 21	77770
+run 13	81315
+
+Langevin 1ps 10.0 MPa
+run 3	14318
+run 13	14723
+run 18	15745
+run 25	22730
+run 7	30458
+run 6	44111
+run 19	44004
+run 4	16592
+run 14	20996
+run 20	24558
+
+Langevin 1ps 30.0 MPa
+run 20	5242
+run 22	5713
+run 11	6235
+run 24	7018
+run 9	8653
+run 6	9264
+run 12	16168
+run 14	7937
+run 18	13505
+run 1	13150
+
+Langevin 1ps 100.0 MPa
+run 8	2197
+run 3	2263
+run 14	2354
+run 17	2408
+run 7	2267
+run 9	2505
+run 11	2736
+run 10	2840
+run 22	2881
+run 13	3056
+
+Langevin 1ps 300.0 MPa
+run 18	879
+run 17	960
+run 9	982
+run 22	912
+run 11	994
+run 6	952
+run 12	988
+run 13	1006
+run 3	1001
+run 21	1051
+
+Langevin 1ps 1000.0 MPa
+run 6	332
+run 15	332
+run 4	336
+run 18	340
+run 19	357
+run 9	340
+run 2	363
+run 17	364
+run 23	371
+run 1	383
+
+NHCMTK 1ps 0.1 MPa
+run 2	17465
+run 18	24923
+run 14	28585
+run 17	28955
+run 6	19827
+run 3	37991
+run 19	49967
+run 25	75451
+run 12	62868
+run 22	55214
+
+NHCMTK 1ps 0.3 MPa
+run 16	19688
+run 17	39716
+run 15	21164
+run 20	44715
+run 13	30719
+run 8	54544
+run 22	55615
+run 6	81721
+run 5	20431
+run 1	64468
+
+NHCMTK 1ps 1.0 MPa
+run 4	22357
+run 6	24210
+run 23	31577
+run 22	36158
+run 19	36225
+run 9	38933
+run 11	39489
+run 25	39476
+run 24	45112
+run 1	53761
+
+NHCMTK 1ps 3.0 MPa
+run 18	22376
+run 14	46987
+run 8	56729
+run 7	60090
+run 5	49702
+run 21	36415
+run 16	65616
+run 2	35061
+run 3	31351
+run 15	81558
+
+NHCMTK 1ps 10.0 MPa
+run 19	10476
+run 23	10479
+run 3	11040
+run 10	14228
+run 8	15878
+run 22	22522
+run 20	24597
+run 2	16367
+run 6	28748
+run 17	36673
+
+NHCMTK 1ps 30.0 MPa
+run 24	2641
+run 5	2667
+run 16	2791
+run 7	2942
+run 23	7594
+run 10	5288
+run 12	3725
+run 13	2936
+run 25	3489
+run 18	12669
+
+NHCMTK 1ps 100.0 MPa
+run 9	1606
+run 17	1743
+run 1	1744
+run 22	2076
+run 7	1911
+run 10	1868
+run 23	1990
+run 24	1759
+run 13	2351
+run 4	1754
+
+NHCMTK 1ps 300.0 MPa
+run 3	900
+run 6	935
+run 21	949
+run 24	958
+run 12	970
+run 13	1001
+run 18	1086
+run 16	1125
+run 14	1020
+run 17	985
+
+NHCMTK 1ps 1000.0 MPa
+run 12	548
+run 13	552
+run 9	555
+run 25	582
+run 7	589
+run 6	577
+run 15	586
+run 19	583
+run 3	581
+run 20	572
+
+Berendsen 5ps 0.1 MPa
+run 1	16000
+run 2	16000
+run 3	16000
+run 4	16000
+run 5	16000
+run 6	16000
+run 7	16000
+run 8	16000
+run 9	16000
+run 10	16000
+
+Berendsen 5ps 0.3 MPa
+run 1	16000
+run 2	16000
+run 3	16000
+run 4	16000
+run 5	16000
+run 6	16000
+run 7	16000
+run 8	16000
+run 9	16000
+run 10	16000
+
+Berendsen 5ps 1.0 MPa
+run 1	16000
+run 2	16000
+run 3	16000
+run 4	16000
+run 5	16000
+run 6	16000
+run 7	16000
+run 8	16000
+run 9	16000
+run 10	16000
+
+Berendsen 5ps 3.0 MPa
+run 1	16000
+run 2	16000
+run 3	16000
+run 4	16000
+run 5	16000
+run 6	16000
+run 7	16000
+run 8	16000
+run 9	16000
+run 10	16000
+
+Berendsen 5ps 10.0 MPa
+run 1	16000
+run 2	16000
+run 3	16000
+run 4	16000
+run 5	16000
+run 6	16000
+run 7	16000
+run 8	16000
+run 9	16000
+run 10	16000
+
+Berendsen 5ps 30.0 MPa
+run 1	16000
+run 2	16000
+run 3	16000
+run 4	16000
+run 5	16000
+run 6	16000
+run 7	16000
+run 8	16000
+run 9	16000
+run 10	16000
+
+Berendsen 5ps 100.0 MPa
+run 1	16000
+run 2	16000
+run 3	16000
+run 4	16000
+run 5	16000
+run 6	16000
+run 7	16000
+run 8	16000
+run 9	16000
+run 10	16000
+
+Berendsen 5ps 300.0 MPa
+run 1	16000
+run 2	16000
+run 3	16000
+run 4	16000
+run 5	16000
+run 6	16000
+run 7	16000
+run 8	16000
+run 9	16000
+run 10	16000
+
+Berendsen 5ps 1000.0 MPa
+run 7	10953
+run 2	10985
+run 3	10972
+run 4	10965
+run 5	10958
+run 6	10989
+run 1	10981
+run 8	10986
+run 9	10972
+run 10	10985
+
+Langevin 5ps 0.1 MPa
+run 50	1578
+run 22	1620
+run 90	1689
+run 59	1802
+run 39	1824
+run 80	1883
+run 10	1905
+run 43	2797
+run 34	3271
+run 46	3867
+
+Langevin 5ps 0.3 MPa
+run 99	1721
+run 45	1810
+run 22	1882
+run 35	2782
+run 42	1840
+run 46	2702
+run 83	3212
+run 57	2828
+run 61	2635
+run 50	2411
+
+Langevin 5ps 1.0 MPa
+run 73	1672
+run 67	1769
+run 79	1909
+run 39	2011
+run 50	2268
+run 32	2791
+run 34	3171
+run 76	2937
+run 13	2846
+run 53	2869
+
+Langevin 5ps 3.0 MPa
+run 6	1257
+run 21	1299
+run 44	1341
+run 23	1436
+run 78	1888
+run 59	1356
+run 97	1763
+run 57	1661
+run 47	1514
+run 29	1765
+
+Langevin 5ps 10.0 MPa
+run 86	716
+run 74	716
+run 5	746
+run 69	792
+run 42	1056
+run 27	1069
+run 66	1026
+run 15	1426
+run 3	1049
+run 2	906
+
+Langevin 5ps 30.0 MPa
+run 67	184
+run 83	192
+run 13	232
+run 14	202
+run 41	194
+run 32	388
+run 86	237
+run 89	206
+run 69	203
+run 59	195
+
+Langevin 5ps 100.0 MPa
+run 48	54
+run 74	57
+run 58	55
+run 73	55
+run 90	57
+run 53	57
+run 14	73
+run 41	57
+run 34	57
+run 8	64
+
+Langevin 5ps 300.0 MPa
+run 27	28
+run 45	28
+run 19	28
+run 3	28
+run 17	28
+run 63	29
+run 74	29
+run 71	29
+run 31	29
+run 1	29
+
+Langevin 5ps 1000.0 MPa
+run 67	15
+run 12	15
+run 48	15
+run 53	15
+run 54	15
+run 70	16
+run 95	16
+run 69	16
+run 29	16
+run 83	16
+
+NHCMTK 5ps 0.1 MPa
+run 52	2116
+run 69	2239
+run 81	2637
+run 70	4448
+run 63	5989
+run 96	3248
+run 64	3749
+run 17	3613
+run 67	8142
+run 100	2798
+
+NHCMTK 5ps 0.3 MPa
+run 39	2008
+run 47	2112
+run 81	2180
+run 78	2239
+run 41	2592
+run 98	2759
+run 3	4075
+run 19	4129
+run 11	5023
+run 9	4194
+
+NHCMTK 5ps 1.0 MPa
+run 67	1904
+run 84	2065
+run 59	2066
+run 18	2152
+run 92	4919
+run 96	3065
+run 78	2573
+run 89	2181
+run 10	6424
+run 32	2757
+
+NHCMTK 5ps 3.0 MPa
+run 64	1595
+run 74	1802
+run 93	1826
+run 14	2055
+run 36	2092
+run 40	2126
+run 18	2332
+run 21	2222
+run 53	2626
+run 7	3389
+
+NHCMTK 5ps 10.0 MPa
+run 1	1092
+run 22	1961
+run 36	1746
+run 88	3136
+run 18	1904
+run 87	1641
+run 12	2252
+run 98	1350
+run 40	2174
+run 69	1543
+
+NHCMTK 5ps 30.0 MPa
+run 76	171
+run 60	176
+run 15	188
+run 69	196
+run 25	202
+run 10	450
+run 9	356
+run 44	221
+run 70	242
+run 71	270
+
+NHCMTK 5ps 100.0 MPa
+run 30	79
+run 25	80
+run 66	81
+run 51	84
+run 22	81
+run 96	84
+run 26	80
+run 95	85
+run 93	92
+run 13	98
+
+NHCMTK 5ps 300.0 MPa
+run 69	49
+run 92	49
+run 10	50
+run 36	50
+run 88	69
+run 49	53
+run 63	56
+run 9	51
+run 77	53
+run 100	50
+
+NHCMTK 5ps 1000.0 MPa
+run 80	26
+run 7	26
+run 43	26
+run 76	31
+run 26	27
+run 59	27
+run 97	27
+run 61	26
+run 4	33
+run 17	29
+
+Berendsen 10ps 0.1 MPa
+run 1	16000
+run 2	16000
+run 3	16000
+run 4	16000
+run 5	16000
+run 6	16000
+run 7	16000
+run 8	16000
+run 9	16000
+run 10	16000
+
+Berendsen 10ps 0.3 MPa
+run 1	16000
+run 2	16000
+run 3	16000
+run 4	16000
+run 5	16000
+run 6	16000
+run 7	16000
+run 8	16000
+run 9	16000
+run 10	16000
+
+Berendsen 10ps 1.0 MPa
+run 1	16000
+run 2	16000
+run 3	16000
+run 4	16000
+run 5	16000
+run 6	16000
+run 7	16000
+run 8	16000
+run 9	16000
+run 10	16000
+
+Berendsen 10ps 3.0 MPa
+run 1	16000
+run 2	16000
+run 3	16000
+run 4	16000
+run 5	16000
+run 6	16000
+run 7	16000
+run 8	16000
+run 9	16000
+run 10	16000
+
+Berendsen 10ps 10.0 MPa
+run 1	16000
+run 2	16000
+run 3	16000
+run 4	16000
+run 5	16000
+run 6	16000
+run 7	16000
+run 8	16000
+run 9	16000
+run 10	16000
+
+Berendsen 10ps 30.0 MPa
+run 1	16000
+run 2	16000
+run 3	16000
+run 4	16000
+run 5	16000
+run 6	16000
+run 7	16000
+run 8	16000
+run 9	16000
+run 10	16000
+
+Berendsen 10ps 100.0 MPa
+run 1	16000
+run 2	16000
+run 3	16000
+run 4	16000
+run 5	16000
+run 6	16000
+run 7	16000
+run 8	16000
+run 9	16000
+run 10	16000
+
+Berendsen 10ps 300.0 MPa
+run 1	16000
+run 2	16000
+run 3	16000
+run 4	16000
+run 5	16000
+run 6	16000
+run 7	16000
+run 8	16000
+run 9	16000
+run 10	16000
+
+Berendsen 10ps 1000.0 MPa
+run 1	16000
+run 2	16000
+run 3	16000
+run 4	16000
+run 5	16000
+run 6	16000
+run 7	16000
+run 8	16000
+run 9	16000
+run 10	16000
+
+Langevin 10ps 0.1 MPa
+run 7	5519
+run 10	5567
+run 48	8398
+run 74	6060
+run 72	6126
+run 82	6738
+run 35	6045
+run 85	7083
+run 91	9114
+run 12	5867
+
+Langevin 10ps 0.3 MPa
+run 8	4553
+run 34	4611
+run 7	7970
+run 23	9821
+run 64	6688
+run 49	10739
+run 6	5696
+run 54	6406
+run 99	7386
+run 65	4907
+
+Langevin 10ps 1.0 MPa
+run 61	3711
+run 23	4579
+run 35	5148
+run 13	4228
+run 95	3865
+run 17	4699
+run 88	4969
+run 15	5368
+run 9	6136
+run 76	10704
+
+Langevin 10ps 3.0 MPa
+run 99	3208
+run 18	4238
+run 47	4986
+run 86	4285
+run 29	5511
+run 4	5891
+run 48	8643
+run 98	4499
+run 60	4857
+run 9	6510
+
+Langevin 10ps 10.0 MPa
+run 17	1601
+run 54	1609
+run 81	1796
+run 16	2512
+run 7	2188
+run 40	2499
+run 91	1796
+run 79	1853
+run 44	3044
+run 72	1948
+
+Langevin 10ps 30.0 MPa
+run 94	310
+run 45	585
+run 82	507
+run 9	397
+run 81	333
+run 75	338
+run 84	362
+run 70	313
+run 49	319
+run 47	334
+
+Langevin 10ps 100.0 MPa
+run 33	96
+run 31	97
+run 89	97
+run 22	100
+run 59	103
+run 60	98
+run 58	98
+run 82	99
+run 11	100
+run 94	105
+
+Langevin 10ps 300.0 MPa
+run 2	54
+run 31	55
+run 98	55
+run 64	56
+run 95	55
+run 47	56
+run 62	56
+run 49	56
+run 25	57
+run 39	61
+
+Langevin 10ps 1000.0 MPa
+run 45	28
+run 14	28
+run 40	28
+run 37	29
+run 13	31
+run 80	30
+run 18	32
+run 28	29
+run 77	32
+run 78	29
+
+NHCMTK 10ps 0.1 MPa
+run 13	6225
+run 10	6324
+run 38	7034
+run 35	10133
+run 22	10554
+run 16	9838
+run 40	9927
+run 44	10716
+run 48	11452
+run 1	12021
+
+NHCMTK 10ps 0.3 MPa
+run 56	4111
+run 67	7155
+run 63	8094
+run 8	6457
+run 42	13214
+run 41	5379
+run 18	11176
+run 15	16000
+run 14	6286
+run 100	10135
+
+NHCMTK 10ps 1.0 MPa
+run 86	7315
+run 98	7452
+run 59	7854
+run 8	8225
+run 18	8739
+run 4	10334
+run 65	9285
+run 90	15147
+run 32	8969
+run 85	13427
+
+NHCMTK 10ps 3.0 MPa
+run 60	3472
+run 69	3769
+run 40	5555
+run 23	3793
+run 61	7142
+run 91	10683
+run 18	8307
+run 25	7867
+run 92	12694
+run 24	7948
+
+NHCMTK 10ps 10.0 MPa
+run 73	1501
+run 34	2053
+run 30	2196
+run 58	2245
+run 40	2500
+run 36	2607
+run 21	2754
+run 27	4145
+run 56	4251
+run 64	4620
+
+NHCMTK 10ps 30.0 MPa
+run 54	249
+run 76	270
+run 41	259
+run 35	283
+run 95	831
+run 96	278
+run 7	250
+run 44	322
+run 84	274
+run 31	278
+
+NHCMTK 10ps 100.0 MPa
+run 40	154
+run 23	157
+run 22	154
+run 25	160
+run 61	162
+run 56	157
+run 34	163
+run 3	162
+run 80	160
+run 68	167
+
+NHCMTK 10ps 300.0 MPa
+run 84	96
+run 74	96
+run 29	98
+run 17	98
+run 91	98
+run 70	113
+run 5	98
+run 98	131
+run 99	104
+run 28	102
+
+NHCMTK 10ps 1000.0 MPa
+run 2	54
+run 55	54
+run 60	54
+run 43	61
+run 79	58
+run 92	56
+run 83	62
+run 19	63
+run 41	78
+run 1	73

@@ -1,0 +1,7 @@
+Cell length a: 18.2523971235
+Cell length b: 6.5413212708
+Cell length c: 10.6531105592
+
+Cell angle alpha: 89.9923649512
+Cell angle beta: 89.9907058284
+Cell angle gamma: 89.1313911067
