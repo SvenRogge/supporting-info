@@ -1,0 +1,146 @@
+# BONDHARM
+#---------
+BONDHARM:UNIT  K kjmol/A**2
+BONDHARM:UNIT  R0 A
+
+BONDHARM:PARS      C_ph      C_ph  4.0235900412e+03  1.3930859155e+00
+BONDHARM:PARS      C_ph      H_ph  3.4057330879e+03  1.0847740222e+00
+BONDHARM:PARS      O_ce        Zn  8.9239440814e+02  2.0347161610e+00
+BONDHARM:PARS      O_ca        Zn  9.7852145881e+02  1.9169097752e+00
+BONDHARM:PARS      C_ca      O_ca  5.6935698009e+03  1.2739271271e+00
+BONDHARM:PARS      C_ca      C_pc  2.8198115487e+03  1.4961158143e+00
+BONDHARM:PARS      C_pc      C_ph  3.8832500884e+03  1.4001340079e+00
+
+
+# BENDAHARM
+#----------
+BENDAHARM:UNIT  K kjmol/rad**2
+BENDAHARM:UNIT  THETA0 deg
+
+BENDAHARM:PARS      C_ph      C_ph      H_ph  2.9053440775e+02  1.2013974500e+02
+BENDAHARM:PARS      C_ph      C_ph      C_ph  6.1864845083e+02  1.1996439539e+02
+BENDAHARM:PARS      O_ca        Zn      O_ca  3.6359512585e+01  1.3438117178e+02
+BENDAHARM:PARS        Zn      O_ce        Zn  1.7593552737e+02  1.0946606702e+02
+BENDAHARM:PARS      C_ca      O_ca        Zn  1.1700257032e+02  1.3918065078e+02
+BENDAHARM:PARS      O_ca      C_ca      O_ca  7.3935359520e+02  1.2272556049e+02
+BENDAHARM:PARS      C_pc      C_ca      O_ca  6.6190055195e+02  1.1860003768e+02
+BENDAHARM:PARS      C_pc      C_ph      C_ph  5.8816132569e+02  1.2031868523e+02
+BENDAHARM:PARS      C_pc      C_ph      H_ph  3.0051887407e+02  1.1908053083e+02
+BENDAHARM:PARS      C_ca      C_pc      C_ph  3.9260965985e+02  1.2020872432e+02
+BENDAHARM:PARS      C_ph      C_pc      C_ph  5.6358621584e+02  1.1953360720e+02
+
+
+# TORSION
+#--------
+TORSION:UNIT  A kjmol
+TORSION:UNIT  PHI0 deg
+
+TORSION:PARS      C_ph      C_pc      C_ph      C_ph  2 3.0928632221e+01  0.0000000000e+00
+TORSION:PARS      C_ph      C_ph      C_ph      H_ph  2 3.1967987548e+01  0.0000000000e+00
+TORSION:PARS      C_ph      C_ph      C_ph      C_ph  2 3.2165172488e+01  0.0000000000e+00
+TORSION:PARS      C_ca      C_pc      C_ph      C_ph  2 4.5636248064e+01  0.0000000000e+00
+TORSION:PARS      C_pc      C_ca      O_ca        Zn  2 1.3791713490e+01  0.0000000000e+00
+TORSION:PARS      C_ph      C_pc      C_ca      O_ca  2 2.7501306061e+00  0.0000000000e+00
+TORSION:PARS      C_pc      C_ph      C_ph      H_ph  2 3.1096578757e+01  0.0000000000e+00
+TORSION:PARS      C_ph      C_pc      C_ph      H_ph  2 3.1835635613e+01  0.0000000000e+00
+TORSION:PARS      C_ca      C_pc      C_ph      H_ph  2 1.5445488413e+01  0.0000000000e+00
+TORSION:PARS      H_ph      C_ph      C_ph      H_ph  2 1.3292476591e+01  0.0000000000e+00
+TORSION:PARS      C_pc      C_ph      C_ph      C_ph  2 2.8105763227e+01  0.0000000000e+00
+
+
+# OOPDIST
+#--------
+OOPDIST:UNIT  K kjmol/A**2
+OOPDIST:UNIT  D0 A
+
+OOPDIST:PARS      C_ca      C_ph      C_ph      C_pc  2.5088068557e+02  0.0000000000e+00
+OOPDIST:PARS      C_ph      C_ph      H_ph      C_ph  2.5888197721e+02  0.0000000000e+00
+OOPDIST:PARS      C_pc      C_ph      H_ph      C_ph  3.1677202316e+02  0.0000000000e+00
+OOPDIST:PARS      C_pc      O_ca      O_ca      C_ca  1.7360630145e+03  0.0000000000e+00
+
+
+# Cross
+#------
+Cross:UNIT  KSS kjmol/angstrom**2
+Cross:UNIT  KBS0 kjmol/(angstrom*rad)
+Cross:UNIT  KBS1 kjmol/(angstrom*rad)
+Cross:UNIT  R0 angstrom
+Cross:UNIT  R1 angstrom
+Cross:UNIT  THETA0 deg
+
+Cross:PARS      C_ph      C_ph      H_ph   1.2582197724e+02   6.8368846208e+01   1.3495301523e+02  1.3930933518e+00  1.0846841574e+00  1.2006351464e+02
+Cross:PARS      C_ph      C_ph      C_ph   6.1178391874e+02   1.7922925223e+01   1.9955852248e+01  1.3930933518e+00  1.3930933518e+00  1.2008192322e+02
+Cross:PARS      O_ca        Zn      O_ce   6.0187326594e+01   3.0261783813e+01  -3.4924361665e-01  1.9298847320e+00  2.0073075041e+00  1.0909580185e+02
+Cross:PARS      O_ca        Zn      O_ca   1.0084268259e+02   1.4109089288e+02   1.4124078299e+02  1.9298847320e+00  1.9298847320e+00  1.1123073832e+02
+Cross:PARS        Zn      O_ce        Zn   1.4951011505e+02   4.6975700471e+01   4.7574125676e+01  2.0073075041e+00  2.0073075041e+00  1.0947390099e+02
+Cross:PARS      C_ca      O_ca        Zn   3.1063225866e+02   5.6855620578e+01   3.9411352643e+01  1.2739873187e+00  1.9298847320e+00  1.3516256863e+02
+Cross:PARS      O_ca      C_ca      O_ca   8.1849232460e+02   4.0385267486e+02   4.0398096037e+02  1.2739873187e+00  1.2739873187e+00  1.2287973459e+02
+Cross:PARS      C_pc      C_ca      O_ca   4.2359055463e+02   2.0963288396e+02   4.3311486298e+02  1.5016213206e+00  1.2739873187e+00  1.1851074064e+02
+Cross:PARS      C_pc      C_ph      C_ph   5.6854609424e+02   1.2596413203e+01  -9.9363445283e+00  1.4010006112e+00  1.3930933518e+00  1.2024412712e+02
+Cross:PARS      C_pc      C_ph      H_ph   1.0949541401e+02   5.7209441149e+01   1.3464065713e+02  1.4010006112e+00  1.0846841574e+00  1.1925421962e+02
+Cross:PARS      C_ca      C_pc      C_ph   3.1209435721e+02   1.6304918842e+02   3.2787664031e+01  1.5016213206e+00  1.4010006112e+00  1.2035163672e+02
+Cross:PARS      C_ph      C_pc      C_ph   6.1864214058e+02   9.4775957324e+00   9.4586542698e+00  1.4010006112e+00  1.4010006112e+00  1.1930792564e+02
+
+
+#Fixed charges
+#---------------
+
+FIXQ:UNIT Q0 e
+FIXQ:UNIT P e
+FIXQ:UNIT R angstrom
+FIXQ:SCALE 1 1.0
+FIXQ:SCALE 2 1.0
+FIXQ:SCALE 3 1.0
+FIXQ:DIELECTRIC 1.0
+
+# Atomic parameters
+# ----------------------------------------------------
+# KEY        label  Q_0A              R_A
+# ----------------------------------------------------
+FIXQ:ATOM       Zn  0.0000000000  2.0730000000
+FIXQ:ATOM     H_ph  0.0000000000  0.7240000000
+FIXQ:ATOM     C_ca  0.0000000000  1.1630000000
+FIXQ:ATOM     C_pc  0.0000000000  1.1630000000
+FIXQ:ATOM     O_ca  0.0000000000  1.1180000000
+FIXQ:ATOM     C_ph  0.0000000000  1.1630000000
+FIXQ:ATOM     O_ce  0.0000000000  1.1180000000
+# Bond parameters
+# ----------------------------------------------------
+# KEY         label0   label1           P_AB          
+# ----------------------------------------------------
+FIXQ:BOND      C_ph      C_ph  -0.0000000000
+FIXQ:BOND      C_ca      C_pc  -0.1800000000
+FIXQ:BOND      O_ce        Zn  -0.4450000000
+FIXQ:BOND      C_ph      H_ph  -0.1200000000
+FIXQ:BOND      C_ca      O_ca   0.3950000000
+FIXQ:BOND      C_pc      C_ph  -0.0000000000
+FIXQ:BOND      O_ca        Zn  -0.3250000000
+
+# van der Waals
+#==============
+
+# The following mathemetical form is supported:
+#  - MM3:   EPSILON*(1.84e5*exp(-12*r/SIGMA)-2.25*(SIGMA/r)^6)
+#  - LJ:    4.0*EPSILON*((SIGMA/r)^12 - (SIGMA/r)^6)
+#
+# Remark:
+#  In MM3, if ONLYPAULI=1 then only the pauli term will be used.
+#  If ONLYPAULI=0, the full MM3 expression is used with 12.
+
+MM3:UNIT SIGMA angstrom
+MM3:UNIT EPSILON kcalmol
+MM3:SCALE 1 0.0
+MM3:SCALE 2 0.0
+MM3:SCALE 3 1.0
+
+# ---------------------------------------------
+# KEY      ffatype  SIGMA  EPSILON  ONLYPAULI
+# ---------------------------------------------
+
+MM3:PARS      Zn     2.290   0.276      0
+MM3:PARS    O_ce     1.820   0.059      0
+MM3:PARS    O_ca     1.820   0.059      0
+MM3:PARS    C_ca     1.940   0.056      0
+MM3:PARS    C_pc     1.960   0.056      0
+MM3:PARS    C_ph     1.960   0.056      0
+MM3:PARS    H_ph     1.620   0.020      0
