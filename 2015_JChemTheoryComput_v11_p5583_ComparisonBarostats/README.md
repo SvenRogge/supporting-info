@@ -2,9 +2,11 @@
 
 This GitHub repository contains the input and raw output data accompanying the manuscript
 
-**A Comparison of Barostats for the Mechanical Characterization of Metal--Organic Frameworks**
+**A Comparison of Barostats for the Mechanical Characterization of Metal-Organic Frameworks**
 
-by Sven M.J. Rogge, Louis Vanduyfhuys, An Ghysels, Michel Waroquier, Toon Verstraelen, Guillaume Maurin, and Veronique Van Speybroeck. This work was published in *J. Chem. Theory Comput.*, **2015**, *11* (12): 5583--5597 (DOI: 10.1021/acs.jctc.5b00748).
+by Sven M.J. Rogge, Louis Vanduyfhuys, An Ghysels, Michel Waroquier, Toon Verstraelen, Guillaume Maurin, and Veronique Van Speybroeck.
+
+This work was published in *J. Chem. Theory Comput.*, **2015**, *11* (12): 5583-5597 (DOI: [10.1021/acs.jctc.5b00748](dx.doi.org/10.1021/acs.jctc.5b00748)).
 
 
 The data presented here is licensed under the CC BY-SA 4.0 international license, a copy of which can be found [here](https://creativecommons.org/licenses/by-sa/4.0/). Under this license, you can copy and redistribute the material in any medium or format as long as you give appropriate credit, provide a link to the license, and indicate if changes were made.
@@ -34,6 +36,7 @@ For each of the barostats (`Berendsen`, `Langevin`, and `NHCMTK`), a subfolder i
 
 
 ## TD_int
+The `TD_int` folder contains the results and scripts used to generate the free energy equations of state of MIL-53(Al) at 300 K.
 
 ### results
 This folder contains for each of the barostats (subfolders `Berendsen`, `Langevin`, and `NHCMTK`) and each of the barostat time constants a file containing the pressure-versus-volume raw data (`PvsV_Xps_100ps_800Ps.csv`), as well as tar archives containing the bootstrapped free energy profiles  (`bootstrapping_Xps.tar.gz`).
