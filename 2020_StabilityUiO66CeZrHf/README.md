@@ -24,10 +24,17 @@ All molecular dynamics simulations were performed with Yaff 1.4.2, using the mod
 *Pre- and post-processing scripts*
 The pre- and post-processing Python scripts are written in Python 2.7. To convert the trajectory files to crystallographic information files (CIFs), CON3F was used (module version_CIF2-intel-2015a-Python-2.7.10).
 
+
+## opt_building_blocks_gaussian
+
+### results
+The folder `opt_building_blocks_gaussian/results` contains the ab initio optimized structure files for each of the 22 inorganic bricks (`optimized_structures.tar.gz`).
+
+
 ## construct_ff_quickff_horton
 
 ### results
-The folder `construct_ff_quickff_horton/results` contains the force-field optimized structure files for each of the 22 periodic materials (`init.tar.gz`) and the corresponding periodic force fields (`pars.tar.gz`)
+The folder `construct_ff_quickff_horton/results` contains the force-field optimized structure files for each of the 22 periodic materials (`init.tar.gz`) and the corresponding periodic force fields (`pars.tar.gz`).
 
 
 ## NPT_yaff
