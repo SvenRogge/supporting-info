@@ -6,7 +6,7 @@ This GitHub repository contains the input and raw output data accompanying the m
 
 by Sven M. J. Rogge, Pascal G. Yot, Jannick Jacobsen, Francesco Muniz-Miranda, Steven Vandenbrande, Jonas Gosch, Vanessa Ortiz, Inès E. Collings, Sabine Devautour-Vinot, Guillame Maurin, Norbert Stock, and Veronique Van Speybroeck.
 
-This work was published in *ACS Materials Lett.*, **2020**, *2* (4): 438-445 (DOI: [10.1021/acsmaterialslett.0c00042](dx.doi.org/10.1021/acsmaterialslett.0c00042)).
+This work was published in *ACS Materials Lett.*, **2020**, *2* (4): 438-445 (DOI: [10.1021/acsmaterialslett.0c00042](https://dx.doi.org/10.1021/acsmaterialslett.0c00042)).
 
 The data presented here is licensed under the CC BY-SA 4.0 international license, a copy of which can be found [here](https://creativecommons.org/licenses/by-sa/4.0/). Under this license, you can copy and redistribute the material in any medium or format as long as you give appropriate credit, provide a link to the license, and indicate if changes were made.
 
