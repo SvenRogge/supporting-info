@@ -6,7 +6,7 @@ This GitHub repository contains the input and raw output data accompanying the m
 
 by Sven M.J. Rogge, Jelle Wieme, Louis Vanduyfhuys, Steven Vandenbrande, Guillaume Maurin, Toon Verstraelen, Michel Waroquier, and Veronique Van Speybroeck
 
-This work was published in *Chem. Mater.*, **2016**, *28* (16): 5721-5732 (DOI: [10.1021/acs.chemmater.6b01956](dx.doi.org/10.1021/acs.chemmater.6b01956)).
+This work was published in *Chem. Mater.*, **2016**, *28* (16): 5721-5732 (DOI: [10.1021/acs.chemmater.6b01956](https://dx.doi.org/10.1021/acs.chemmater.6b01956)).
 
 The data presented here is licensed under the CC BY-SA 4.0 international license, a copy of which can be found [here](https://creativecommons.org/licenses/by-sa/4.0/). Under this license, you can copy and redistribute the material in any medium or format as long as you give appropriate credit, provide a link to the license, and indicate if changes were made.
 

@@ -6,7 +6,7 @@ This GitHub repository contains the input and raw output data accompanying the m
 
 by Sven M.J. Rogge, Louis Vanduyfhuys, An Ghysels, Michel Waroquier, Toon Verstraelen, Guillaume Maurin, and Veronique Van Speybroeck.
 
-This work was published in *J. Chem. Theory Comput.*, **2015**, *11* (12): 5583-5597 (DOI: [10.1021/acs.jctc.5b00748](dx.doi.org/10.1021/acs.jctc.5b00748)).
+This work was published in *J. Chem. Theory Comput.*, **2015**, *11* (12): 5583-5597 (DOI: [10.1021/acs.jctc.5b00748](https://dx.doi.org/10.1021/acs.jctc.5b00748)).
 
 
 The data presented here is licensed under the CC BY-SA 4.0 international license, a copy of which can be found [here](https://creativecommons.org/licenses/by-sa/4.0/). Under this license, you can copy and redistribute the material in any medium or format as long as you give appropriate credit, provide a link to the license, and indicate if changes were made.
