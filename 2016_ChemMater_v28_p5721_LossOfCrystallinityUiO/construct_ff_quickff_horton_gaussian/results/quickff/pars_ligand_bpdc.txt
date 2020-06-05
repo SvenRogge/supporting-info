@@ -1,0 +1,342 @@
+# Bond stretch
+# ============
+
+# Mathematical form depends on the kind selected below. Few kinds are supported:
+# - BONDHARM: 0.5*K*(r-R0)**2
+# - BONDFUES: 0.5*K*R0**2*(1+(R0/r)*((R0/r)-2.0))
+
+# The actual parameters and their units may depend on the kind.
+BONDHARM:UNIT K kjmol/angstrom**2
+BONDHARM:UNIT R0 angstrom
+
+# -----------------------------------------------------------------
+# KEY         ffatype0 ffatype1  K                 R0
+# -----------------------------------------------------------------
+BONDHARM:PARS       C1       C2  3.1424623989e+03  1.4011740102e+00
+BONDHARM:PARS       C1     C_CA  2.0460580463e+03  1.5003681934e+00
+BONDHARM:PARS       C2       C3  3.3608686047e+03  1.3893301308e+00
+BONDHARM:PARS       C2       H1  3.3646144697e+03  1.0839185307e+00
+BONDHARM:PARS       C3       C4  2.9241444066e+03  1.4053875187e+00
+BONDHARM:PARS       C3       H2  3.3256723581e+03  1.0859895918e+00
+BONDHARM:PARS       C4       C4  2.2999089212e+03  1.4888596509e+00
+BONDHARM:PARS     C_CA     O_CA  4.3128368413e+03  1.2782086781e+00
+BONDHARM:PARS     H_OH     O_OH  4.9264799196e+03  9.9737950528e-01
+BONDHARM:PARS     O_CA       ZR  4.5771058183e+02  2.1774033797e+00
+BONDHARM:PARS     O_OH       ZR  3.3898148135e+02  2.2634090604e+00
+BONDHARM:PARS     O_OH      zr1  3.4783349140e+02  2.2538832441e+00
+BONDHARM:PARS     O_OX       ZR  7.5223520570e+02  2.0709258836e+00
+BONDHARM:PARS     O_OX      zr1  7.6862304004e+02  2.0647798232e+00
+BONDHARM:PARS       ZR    o_ca1  3.4737274460e+02  2.2261235691e+00
+BONDHARM:PARS       ZR   o_ca10  3.6257262971e+02  2.2237765219e+00
+BONDHARM:PARS       ZR    o_ca6  3.6543242106e+02  2.2223715148e+00
+BONDHARM:PARS       ZR    o_oh1  3.3319907940e+02  2.2606605826e+00
+BONDHARM:PARS       ZR    o_ox1  7.2208163097e+02  2.0722055567e+00
+BONDHARM:PARS       c1   o_ca10  4.9164575871e+03  1.2679669214e+00
+BONDHARM:PARS       c1    o_ca8  4.9335325505e+03  1.2680913359e+00
+BONDHARM:PARS       c2   o_ca11  4.9195894747e+03  1.2677864439e+00
+BONDHARM:PARS       c2    o_ca9  4.9318852813e+03  1.2680063954e+00
+BONDHARM:PARS       c3    o_ca3  4.9190788439e+03  1.2683836590e+00
+BONDHARM:PARS       c4    o_ca4  4.9316094895e+03  1.2677046973e+00
+BONDHARM:PARS       c4    o_ca6  4.9172624717e+03  1.2673374077e+00
+BONDHARM:PARS       c5    o_ca5  4.9281838174e+03  1.2677298849e+00
+BONDHARM:PARS       c5    o_ca7  4.9225216149e+03  1.2671464229e+00
+BONDHARM:PARS       c6    o_ca1  4.9260264588e+03  1.2680981226e+00
+BONDHARM:PARS       c6    o_ca2  4.9150254553e+03  1.2682832043e+00
+BONDHARM:PARS    h_oh1    o_oh1  4.9362511381e+03  9.9727478461e-01
+BONDHARM:PARS    h_oh2    o_oh2  4.9268699860e+03  9.9739374997e-01
+BONDHARM:PARS   o_ca11      zr2  3.6682937097e+02  2.2210499303e+00
+BONDHARM:PARS    o_ca2      zr2  3.6917459248e+02  2.2213575214e+00
+BONDHARM:PARS    o_ca3      zr2  3.6522854955e+02  2.2231777049e+00
+BONDHARM:PARS    o_ca4      zr1  3.8082214508e+02  2.2223716846e+00
+BONDHARM:PARS    o_ca5      zr1  3.8197926409e+02  2.2216506657e+00
+BONDHARM:PARS    o_ca7      zr2  3.6643795229e+02  2.2206059274e+00
+BONDHARM:PARS    o_ca8      zr1  3.8518539689e+02  2.2227550059e+00
+BONDHARM:PARS    o_ca9      zr1  3.8462131538e+02  2.2225070429e+00
+BONDHARM:PARS    o_oh1      zr1  3.7147504621e+02  2.2593583656e+00
+BONDHARM:PARS    o_oh1      zr2  3.5782405885e+02  2.2585469257e+00
+BONDHARM:PARS    o_oh2      zr1  3.4424939770e+02  2.2578758861e+00
+BONDHARM:PARS    o_oh2      zr2  3.3651322273e+02  2.2615565684e+00
+BONDHARM:PARS    o_ox1      zr1  7.8380142238e+02  2.0750388140e+00
+BONDHARM:PARS    o_ox1      zr2  7.5547105781e+02  2.0698200385e+00
+BONDHARM:PARS    o_ox2      zr1  7.5804407154e+02  2.0666499837e+00
+BONDHARM:PARS    o_ox2      zr2  7.4407836138e+02  2.0697653199e+00
+
+# Angle bending
+# =============
+
+# Mathematical form depends on the kind selected below. Few kinds are supported:
+# - BENDAHARM: 0.5*K*(theta-THETA0)**2
+# - BENDCHARM: 0.5*K*(cos(theta)-cos(THETA0))**2
+# - UBHARM: 0.5*K*(r-R0)**2
+# where theta is the bending angle and r is the distance between the non-bonded
+# pair of atoms.
+
+# The actual parameters and their units may depend on the kind.
+BENDAHARM:UNIT K kjmol/rad**2
+BENDAHARM:UNIT THETA0 deg
+
+# ---------------------------------------------------------------------------
+# KEY          ffatype0 ffatype1 ffatype2  K                 THETA0/COS0/R0
+# ---------------------------------------------------------------------------
+BENDAHARM:PARS       C1       C2       C3  4.4887448786e+02  1.2050568162e+02
+BENDAHARM:PARS       C1       C2       H1  2.8507119268e+02  1.1971241187e+02
+BENDAHARM:PARS       C1     C_CA     O_CA  2.3161624461e+02  1.1866366426e+02
+BENDAHARM:PARS       C2       C1       C2  4.6017464557e+02  1.1829705965e+02
+BENDAHARM:PARS       C2       C1     C_CA  5.6876755049e+02  1.2093954255e+02
+BENDAHARM:PARS       C2       C3       C4  4.9871120823e+02  1.2156236360e+02
+BENDAHARM:PARS       C2       C3       H2  3.5161451662e+02  1.1874226336e+02
+BENDAHARM:PARS       C3       C2       H1  3.4217933150e+02  1.1969369073e+02
+BENDAHARM:PARS       C3       C4       C3  4.0916093012e+02  1.1730541252e+02
+BENDAHARM:PARS       C3       C4       C4  5.0748213860e+02  1.2140635762e+02
+BENDAHARM:PARS       C4       C3       H2  3.0518181006e+02  1.1944223839e+02
+BENDAHARM:PARS     C_CA     O_CA       ZR  1.3066798982e+02  1.3632027094e+02
+BENDAHARM:PARS     H_OH     O_OH       ZR  1.5191483788e+02  1.1320522241e+02
+BENDAHARM:PARS     H_OH     O_OH      zr1  1.5376054460e+02  1.1425075021e+02
+BENDAHARM:PARS     O_CA     C_CA     O_CA  7.2361481455e+02  1.2162642774e+02
+BENDAHARM:PARS     O_CA       ZR     O_OH  4.6948053361e+02  7.3124729197e+01
+BENDAHARM:PARS     O_CA       ZR     O_OX  2.1440396837e+02  8.3277053063e+01
+BENDAHARM:PARS     O_CA       ZR    o_ca1  4.6870525325e+02  1.2535892582e+02
+BENDAHARM:PARS     O_CA       ZR   o_ca10  8.5264284605e+01  8.1401389450e+01
+BENDAHARM:PARS     O_CA       ZR    o_ca6  2.5486954628e+02  7.4989808120e+01
+BENDAHARM:PARS     O_CA       ZR    o_oh1  1.1297932275e-13  1.3914855550e+02
+BENDAHARM:PARS     O_CA       ZR    o_ox1  3.7988724765e-14  1.4168361904e+02
+BENDAHARM:PARS     O_OH       ZR     O_OX  1.6658143789e+02  6.7665200257e+01
+BENDAHARM:PARS     O_OH       ZR    o_ca1  3.3421475689e-14  1.3887155817e+02
+BENDAHARM:PARS     O_OH       ZR   o_ca10  3.8923572146e+02  7.3163379113e+01
+BENDAHARM:PARS     O_OH       ZR    o_ca6  8.9534586644e-14  1.3970028103e+02
+BENDAHARM:PARS     O_OH       ZR    o_oh1 -7.5016289151e-16  1.2038707335e+02
+BENDAHARM:PARS     O_OH       ZR    o_ox1  1.8878080488e+02  6.7377150138e+01
+BENDAHARM:PARS     O_OH      zr1    o_ca8  4.2577012906e+02  7.2880172822e+01
+BENDAHARM:PARS     O_OH      zr1    o_ca9  8.1783005213e+01  1.3746511424e+02
+BENDAHARM:PARS     O_OH      zr1    o_oh2  9.2922154596e-14  1.2048518701e+02
+BENDAHARM:PARS     O_OH      zr1    o_ox1  2.0463722105e+02  6.7732730090e+01
+BENDAHARM:PARS     O_OX       ZR    o_ca1  2.8420526994e-14  1.4165961115e+02
+BENDAHARM:PARS     O_OX       ZR   o_ca10  1.6647149862e-14  1.4199889920e+02
+BENDAHARM:PARS     O_OX       ZR    o_ca6  2.1904170793e+02  8.3494397052e+01
+BENDAHARM:PARS     O_OX       ZR    o_oh1  1.4786067929e+02  6.7452085133e+01
+BENDAHARM:PARS     O_OX       ZR    o_ox1  3.1799645935e-14  8.8111836748e+01
+BENDAHARM:PARS     O_OX      zr1    o_ca4  2.5237685522e+02  8.2820750872e+01
+BENDAHARM:PARS     O_OX      zr1    o_ca5  9.0114998043e+01  1.3952725900e+02
+BENDAHARM:PARS     O_OX      zr1    o_oh1  1.4355143314e+02  6.7412474847e+01
+BENDAHARM:PARS     O_OX      zr1    o_ox2 -1.1316655333e-13  8.7994310590e+01
+BENDAHARM:PARS       ZR     O_OH       ZR  5.8663773446e+02  1.0448891642e+02
+BENDAHARM:PARS       ZR     O_OH      zr1  5.3950390045e+02  1.0525467544e+02
+BENDAHARM:PARS       ZR     O_OX       ZR  5.2492078022e+02  1.1833137459e+02
+BENDAHARM:PARS       ZR     O_OX      zr1  4.9597991329e+02  1.1849039296e+02
+BENDAHARM:PARS       ZR    o_ca1       c6  1.2617184671e-13  1.3450122473e+02
+BENDAHARM:PARS       ZR   o_ca10       c1 -9.5474232481e-14  1.3446191145e+02
+BENDAHARM:PARS       ZR    o_ca6       c4  1.0781344270e-13  1.3434625101e+02
+BENDAHARM:PARS       ZR    o_oh1    h_oh1  1.5770340117e+02  1.1389624848e+02
+BENDAHARM:PARS       ZR    o_oh1      zr1  6.6433855611e+02  1.0443221075e+02
+BENDAHARM:PARS       ZR    o_oh1      zr2  6.2085458159e+02  1.0430841580e+02
+BENDAHARM:PARS       ZR    o_ox1      zr1  5.4201051429e+02  1.1801110945e+02
+BENDAHARM:PARS       ZR    o_ox1      zr2  5.1532429677e+02  1.1778511392e+02
+BENDAHARM:PARS       c1    o_ca8      zr1  5.9010499075e-14  1.3455185482e+02
+BENDAHARM:PARS       c2   o_ca11      zr2 -1.2325328799e-13  1.3449343593e+02
+BENDAHARM:PARS       c2    o_ca9      zr1  4.5435381919e-14  1.3454735724e+02
+BENDAHARM:PARS       c3    o_ca3      zr2  6.7611416933e-14  1.3440700830e+02
+BENDAHARM:PARS       c4    o_ca4      zr1  2.7421317349e-14  1.3465661863e+02
+BENDAHARM:PARS       c5    o_ca5      zr1  7.5123082239e-15  1.3459373567e+02
+BENDAHARM:PARS       c5    o_ca7      zr2  8.8544477110e-15  1.3446867822e+02
+BENDAHARM:PARS       c6    o_ca2      zr2 -1.0930175531e-14  1.3459133247e+02
+BENDAHARM:PARS    h_oh1    o_oh1      zr1  1.6573437997e+02  1.1389394681e+02
+BENDAHARM:PARS    h_oh1    o_oh1      zr2  1.5785689035e+02  1.1389545252e+02
+BENDAHARM:PARS    h_oh2    o_oh2      zr1  1.5651515034e+02  1.1364903778e+02
+BENDAHARM:PARS    h_oh2    o_oh2      zr2  1.5275257126e+02  1.1351720564e+02
+BENDAHARM:PARS    o_ca1       ZR   o_ca10  1.4189449469e+02  7.4371793057e+01
+BENDAHARM:PARS    o_ca1       ZR    o_ca6  2.7651636849e+01  8.1314935067e+01
+BENDAHARM:PARS    o_ca1       ZR    o_oh1  3.1977111599e+02  7.3015719426e+01
+BENDAHARM:PARS    o_ca1       ZR    o_ox1  1.4439906744e+02  8.3107674048e+01
+BENDAHARM:PARS    o_ca1       c6    o_ca2  1.5257254503e+03  1.2611290772e+02
+BENDAHARM:PARS   o_ca10       ZR    o_ca6  4.6323504166e+02  1.2520890124e+02
+BENDAHARM:PARS   o_ca10       ZR    o_oh1  2.0128513613e-14  1.3897620725e+02
+BENDAHARM:PARS   o_ca10       ZR    o_ox1  1.9722748492e+02  8.2946946111e+01
+BENDAHARM:PARS   o_ca10       c1    o_ca8  1.5267105504e+03  1.2614196391e+02
+BENDAHARM:PARS   o_ca11       c2    o_ca9  1.5268998937e+03  1.2610421530e+02
+BENDAHARM:PARS   o_ca11      zr2    o_ca2  1.3286079726e+02  7.4495822907e+01
+BENDAHARM:PARS   o_ca11      zr2    o_ca3  1.0034871696e+01  8.1921449273e+01
+BENDAHARM:PARS   o_ca11      zr2    o_ca7  4.8884804640e+02  1.2508836396e+02
+BENDAHARM:PARS   o_ca11      zr2    o_oh1  3.5403184573e-14  1.3922885543e+02
+BENDAHARM:PARS   o_ca11      zr2    o_oh2  3.9083832900e+02  7.3109765607e+01
+BENDAHARM:PARS   o_ca11      zr2    o_ox1  2.0565983802e+02  8.3056645805e+01
+BENDAHARM:PARS   o_ca11      zr2    o_ox2  8.5296485053e-14  1.4180464270e+02
+BENDAHARM:PARS    o_ca2      zr2    o_ca3  4.9249999328e+02  1.2529362812e+02
+BENDAHARM:PARS    o_ca2      zr2    o_ca7  1.0831872256e+01  8.1492056718e+01
+BENDAHARM:PARS    o_ca2      zr2    o_oh1  3.5712818381e+02  7.3076232481e+01
+BENDAHARM:PARS    o_ca2      zr2    o_oh2  6.2806051644e-14  1.3906338769e+02
+BENDAHARM:PARS    o_ca2      zr2    o_ox1  1.8140833933e+02  8.3193505945e+01
+BENDAHARM:PARS    o_ca2      zr2    o_ox2  1.2543150752e-14  1.4187442595e+02
+BENDAHARM:PARS    o_ca3       c3    o_ca3  1.5260939107e+03  1.2609226846e+02
+BENDAHARM:PARS    o_ca3      zr2    o_ca7  1.3459972351e+02  7.4748230622e+01
+BENDAHARM:PARS    o_ca3      zr2    o_oh1  5.8013785712e-14  1.3909107746e+02
+BENDAHARM:PARS    o_ca3      zr2    o_oh2  3.9924501686e+02  7.3010277039e+01
+BENDAHARM:PARS    o_ca3      zr2    o_ox1  2.3975948383e-14  1.4178030066e+02
+BENDAHARM:PARS    o_ca3      zr2    o_ox2  2.2079160864e+02  8.3032388098e+01
+BENDAHARM:PARS    o_ca4       c4    o_ca6  1.5270853799e+03  1.2613492753e+02
+BENDAHARM:PARS    o_ca4      zr1    o_ca4  1.6816836159e+02  7.7779487904e+01
+BENDAHARM:PARS    o_ca4      zr1    o_ca5  2.7497614998e+02  1.0535407935e+02
+BENDAHARM:PARS    o_ca4      zr1    o_oh1 -1.1520642005e-14  1.0608924134e+02
+BENDAHARM:PARS    o_ca4      zr1    o_ox2  8.6003672854e+01  1.3945285774e+02
+BENDAHARM:PARS    o_ca5       c5    o_ca7  1.5270475008e+03  1.2608237887e+02
+BENDAHARM:PARS    o_ca5      zr1    o_ca5  1.6529484461e+02  7.7757961446e+01
+BENDAHARM:PARS    o_ca5      zr1    o_oh1 -2.6546217372e-14  1.0610530476e+02
+BENDAHARM:PARS    o_ca5      zr1    o_ox2  2.5003963264e+02  8.2745718925e+01
+BENDAHARM:PARS    o_ca6       ZR    o_oh1  3.9860748967e+02  7.2883834680e+01
+BENDAHARM:PARS    o_ca6       ZR    o_ox1  2.7522962790e-15  1.4167882593e+02
+BENDAHARM:PARS    o_ca7      zr2    o_oh1  4.1667344423e+02  7.2989709538e+01
+BENDAHARM:PARS    o_ca7      zr2    o_oh2 -5.3874119583e-14  1.3925165729e+02
+BENDAHARM:PARS    o_ca7      zr2    o_ox1  1.1323146716e-14  1.4190803710e+02
+BENDAHARM:PARS    o_ca7      zr2    o_ox2  2.0989368709e+02  8.3316532188e+01
+BENDAHARM:PARS    o_ca8      zr1    o_ca8  5.5570855572e+01  8.8956505539e+01
+BENDAHARM:PARS    o_ca8      zr1    o_ca9  2.8779012353e+02  1.0098814890e+02
+BENDAHARM:PARS    o_ca8      zr1    o_oh2  7.0791319944e+01  1.3728287648e+02
+BENDAHARM:PARS    o_ca8      zr1    o_ox1  9.3492532000e-14  1.1279730583e+02
+BENDAHARM:PARS    o_ca9      zr1    o_ca9  5.0990493144e+01  8.9232594500e+01
+BENDAHARM:PARS    o_ca9      zr1    o_oh2  4.1609487137e+02  7.2854995480e+01
+BENDAHARM:PARS    o_ca9      zr1    o_ox1  1.2908177462e-13  1.1277687210e+02
+BENDAHARM:PARS    o_oh1       ZR    o_ox1  1.5181460502e+02  6.7535744430e+01
+BENDAHARM:PARS    o_oh1      zr1    o_oh1 -1.2011940532e-13  1.2029567722e+02
+BENDAHARM:PARS    o_oh1      zr1    o_ox2  1.3382447641e+02  6.7471847346e+01
+BENDAHARM:PARS    o_oh1      zr2    o_oh2  1.2914411255e-13  1.2055340200e+02
+BENDAHARM:PARS    o_oh1      zr2    o_ox1  1.9750162078e+02  6.8164789041e+01
+BENDAHARM:PARS    o_oh1      zr2    o_ox2  1.4429709791e+02  6.7832014429e+01
+BENDAHARM:PARS    o_oh2      zr1    o_ox1  1.9564518575e+02  6.7415038971e+01
+BENDAHARM:PARS    o_oh2      zr2    o_ox1  1.6604310098e+02  6.7702220794e+01
+BENDAHARM:PARS    o_oh2      zr2    o_ox2  1.6817749998e+02  6.7736802881e+01
+BENDAHARM:PARS    o_ox1      zr1    o_ox1  1.5396836129e-13  8.8298567462e+01
+BENDAHARM:PARS    o_ox1      zr2    o_ox2  2.1472817053e-13  8.8283462579e+01
+BENDAHARM:PARS      zr1    o_oh1      zr2  6.7313785437e+02  1.0437858982e+02
+BENDAHARM:PARS      zr1    o_oh2      zr2  5.8735609157e+02  1.0533614862e+02
+BENDAHARM:PARS      zr1    o_ox1      zr2  5.5440832252e+02  1.1789917610e+02
+BENDAHARM:PARS      zr1    o_ox2      zr2  5.1136810975e+02  1.1847680036e+02
+BENDAHARM:PARS      zr2    o_oh2      zr2  5.8732281671e+02  1.0480238391e+02
+BENDAHARM:PARS      zr2    o_ox2      zr2  5.3709329946e+02  1.1837850884e+02
+
+# Torsional terms
+# ===============
+
+# The following mathemetical for is supported:
+#  - TORSION:   0.5*A*(1-COS(M*(PHI-PHI0)))
+#  - TORSCHARM: 0.5*A*(COS(PHI)-COS0)**2
+
+# The actual parameters and their units may depend on the kind.
+TORSION:UNIT A kjmol
+TORSION:UNIT PHI0 deg
+TORSCHARM:UNIT A kjmol
+TORSCHARM:UNIT COS0 au
+
+# -------------------------------------------------------------------------------------
+# KEY          ffatype0 ffatype1 ffatype2 ffatype4  M  A                 PHI0/COS0
+# -------------------------------------------------------------------------------------
+TORSION:PARS         C1       C2       C3       C4  2  2.7989404585e+01  0.0000000000e+00
+TORSION:PARS         C1       C2       C3       H2  2  3.3823861890e+01  0.0000000000e+00
+TORSION:PARS         C1     C_CA     O_CA       ZR  2  2.1591025625e+01  0.0000000000e+00
+TORSION:PARS         C2       C1       C2       C3  2  3.3401245730e+01  0.0000000000e+00
+TORSION:PARS         C2       C1       C2       H1  2  2.7954657961e+01  0.0000000000e+00
+TORSION:PARS         C2       C1     C_CA     O_CA  2  1.0996697765e+01  0.0000000000e+00
+TORSION:PARS         C2       C3       C4       C3  2  2.9964268910e+01  0.0000000000e+00
+TORSION:PARS         C2       C3       C4       C4  2  3.4290864018e+01  0.0000000000e+00
+TORSION:PARS         C3       C2       C1     C_CA  2  4.3369444059e+01  0.0000000000e+00
+TORSION:PARS         C3       C4       C3       H2  2  3.3080880710e+01  0.0000000000e+00
+TORSION:PARS         C3       C4       C4       C3  2 -1.9098772077e-14  0.0000000000e+00
+TORSION:PARS         C4       C3       C2       H1  2  3.6347784835e+01  0.0000000000e+00
+TORSION:PARS         C4       C4       C3       H2  2  1.3917746441e+01  0.0000000000e+00
+TORSION:PARS       C_CA       C1       C2       H1  2  1.5010306823e+01  0.0000000000e+00
+TORSION:PARS         H1       C2       C3       H2  2  1.5972128176e+01  0.0000000000e+00
+TORSION:PARS       O_CA     C_CA     O_CA       ZR  2  3.9543395692e+00  0.0000000000e+00
+TORSION:PARS         ZR    o_ca1       c6    o_ca2  1  2.0000000000e+02  0.0000000000e+00
+TORSION:PARS         ZR   o_ca10       c1    o_ca8  1  2.0000000000e+02  0.0000000000e+00
+TORSION:PARS         ZR    o_ca6       c4    o_ca4  1  2.0000000000e+02  0.0000000000e+00
+TORSION:PARS      o_ca1       c6    o_ca2      zr2  1  2.0000000000e+02  0.0000000000e+00
+TORSION:PARS     o_ca10       c1    o_ca8      zr1  1  2.0000000000e+02  0.0000000000e+00
+TORSION:PARS     o_ca11       c2    o_ca9      zr1  1  2.0000000000e+02  0.0000000000e+00
+TORSION:PARS      o_ca3       c3    o_ca3      zr2  1  2.0000000000e+02  0.0000000000e+00
+TORSION:PARS      o_ca5       c5    o_ca7      zr2  1  2.0000000000e+02  0.0000000000e+00
+TORSION:PARS      o_ca6       c4    o_ca4      zr1  1  2.0000000000e+02  0.0000000000e+00
+TORSION:PARS      o_ca7       c5    o_ca5      zr1  1  2.0000000000e+02  0.0000000000e+00
+TORSION:PARS      o_ca9       c2   o_ca11      zr2  1  2.0000000000e+02  0.0000000000e+00
+
+# Out-of-plane terms
+# ===============
+
+# The following mathemetical for is supported:
+#  - OPDIST: 0.5*K*(d - d0)^2
+
+# The actual parameters and their units may depend on the kind.
+OOPDIST:UNIT K kjmol/angstrom**2
+OOPDIST:UNIT D0 angstrom
+
+# -------------------------------------------------------------------------------------
+# KEY        ffatype0 ffatype1 ffatype2 ffatype4  K                 D0
+# -------------------------------------------------------------------------------------
+OOPDIST:PARS       C1       C3       H1       C2  2.7157169455e+02  1.4303247910e-03
+OOPDIST:PARS       C1     O_CA     O_CA     C_CA  1.6093695360e+03  0.0000000000e+00
+OOPDIST:PARS       C2       C2     C_CA       C1  1.5307929823e+02  0.0000000000e+00
+OOPDIST:PARS       C2       C4       H2       C3  2.1263184435e+02  1.6860194861e-02
+OOPDIST:PARS       C3       C3       C4       C4  4.5092945908e+02  4.8095332145e-06
+OOPDIST:PARS       ZR       ZR      zr1     O_OX  2.1963418036e+02  9.4445592111e-02
+OOPDIST:PARS       ZR      zr1      zr2    o_ox1  3.1953101673e+02  1.3819556152e-01
+OOPDIST:PARS      zr1      zr2      zr2    o_ox2  2.3113733770e+02  9.7707467353e-02
+
+
+# Fixed charges
+# =============
+
+# Mathematical form: q_A = q_0A + sum'_B p_BA
+# where q0_A is the reference charge of atom A. It is mostly zero, sometimes a
+# non-zero integer. The total charge of a fragment is the sum of all reference
+# charges. The parameter p_BA is the charge transfered from B to A. Such charge
+# transfers are only carried out over bonds in the FF topology.
+# The charge on an atom is modeled as a Gaussian distribution. The spread on the
+# Gaussian is called the radius R. When the radius is set to zero, point charges
+# will be used instead of smeared charges.
+
+FIXQ:UNIT Q0 e
+FIXQ:UNIT P e
+FIXQ:UNIT R angstrom
+FIXQ:SCALE 1 1.0
+FIXQ:SCALE 2 1.0
+FIXQ:SCALE 3 1.0
+FIXQ:DIELECTRIC 1.0
+
+# Atomic parameters
+# ----------------------------------------------------
+# KEY        label  Q_0A              R_A
+# ----------------------------------------------------
+FIXQ:ATOM       H1  0.1484478877  0.7240000000
+FIXQ:ATOM       H2  0.1408082910  0.7240000000
+FIXQ:ATOM       C2 -0.0885196548  1.1630000000
+FIXQ:ATOM       C3 -0.1737111596  1.1630000000
+FIXQ:ATOM       c2  0.6516189835  1.1630000000
+FIXQ:ATOM       c3  0.6510411506  1.1630000000
+FIXQ:ATOM     C_CA  0.7860938254  1.1630000000
+FIXQ:ATOM       c1  0.6527766699  1.1630000000
+FIXQ:ATOM       c5  0.6515941242  1.1630000000
+FIXQ:ATOM       c6  0.6512849274  1.1630000000
+FIXQ:ATOM       c4  0.6530632971  1.1630000000
+FIXQ:ATOM       C1 -0.1571361147  1.1630000000
+FIXQ:ATOM       C4  0.0696382772  1.1630000000
+FIXQ:ATOM    o_ca9 -0.6583417913  1.1180000000
+FIXQ:ATOM    o_ca8 -0.6583409206  1.1180000000
+FIXQ:ATOM   o_ca10 -0.6591437198  1.1180000000
+FIXQ:ATOM     O_CA -0.6820064357  1.1180000000
+FIXQ:ATOM    o_ca5 -0.6585480117  1.1180000000
+FIXQ:ATOM    o_ca4 -0.6585285153  1.1180000000
+FIXQ:ATOM   o_ca11 -0.6573752643  1.1180000000
+FIXQ:ATOM    o_ca2 -0.6580962373  1.1180000000
+FIXQ:ATOM    o_ca3 -0.6577027404  1.1180000000
+FIXQ:ATOM    o_ca1 -0.6581880062  1.1180000000
+FIXQ:ATOM    o_ca7 -0.6571233493  1.1180000000
+FIXQ:ATOM    o_ca6 -0.6594374452  1.1180000000
+FIXQ:ATOM     H_OH  0.4903388542  0.7240000000
+FIXQ:ATOM    h_oh2  0.4901391014  0.7240000000
+FIXQ:ATOM    h_oh1  0.4899361204  0.7240000000
+FIXQ:ATOM    o_oh2 -1.0481077713  1.1180000000
+FIXQ:ATOM    o_oh1 -1.0478660835  1.1180000000
+FIXQ:ATOM     O_OH -1.0490138981  1.1180000000
+FIXQ:ATOM    o_ox1 -1.0902417419  1.1180000000
+FIXQ:ATOM    o_ox2 -1.0903188684  1.1180000000
+FIXQ:ATOM     O_OX -1.0902093497  1.1180000000
+FIXQ:ATOM      zr1  2.3622626450  2.3670000000
+FIXQ:ATOM       ZR  2.3621788222  2.3670000000
+FIXQ:ATOM      zr2  2.3619087334  2.3670000000

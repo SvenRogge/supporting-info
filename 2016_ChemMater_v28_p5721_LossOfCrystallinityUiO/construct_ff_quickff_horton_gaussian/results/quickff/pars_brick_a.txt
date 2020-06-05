@@ -1,0 +1,147 @@
+# Bond stretch
+# ============
+
+# Mathematical form depends on the kind selected below. Few kinds are supported:
+# - BONDHARM: 0.5*K*(r-R0)**2
+# - BONDFUES: 0.5*K*R0**2*(1+(R0/r)*((R0/r)-2.0))
+
+# The actual parameters and their units may depend on the kind.
+BONDHARM:UNIT K kjmol/angstrom**2
+BONDHARM:UNIT R0 angstrom
+
+# -----------------------------------------------------------------
+# KEY         ffatype0 ffatype1  K                 R0
+# -----------------------------------------------------------------
+BONDHARM:PARS     C_CA     C_PC  2.0858956082e+03  1.4943289017e+00
+BONDHARM:PARS     C_CA     O_CA  4.4115740047e+03  1.2735265146e+00
+BONDHARM:PARS     C_PC     C_PH  3.1844158229e+03  1.3997600308e+00
+BONDHARM:PARS     C_PH     C_PH  3.2565923990e+03  1.3891166894e+00
+BONDHARM:PARS     C_PH     H_PH  3.3131771988e+03  1.0859460537e+00
+BONDHARM:PARS     C_PH        c  3.5618333138e+03  1.3928611032e+00
+BONDHARM:PARS     H_OH     O_OH  4.9864940995e+03  9.9655857664e-01
+BONDHARM:PARS     O_CA       ZR  4.9596402474e+02  2.2086221059e+00
+BONDHARM:PARS     O_OH       ZR  3.6204958493e+02  2.2637222900e+00
+BONDHARM:PARS     O_OX       ZR  7.9646780963e+02  2.0776984142e+00
+
+# Angle bending
+# =============
+
+# Mathematical form depends on the kind selected below. Few kinds are supported:
+# - BENDAHARM: 0.5*K*(theta-THETA0)**2
+# - BENDCHARM: 0.5*K*(cos(theta)-cos(THETA0))**2
+# - UBHARM: 0.5*K*(r-R0)**2
+# where theta is the bending angle and r is the distance between the non-bonded
+# pair of atoms.
+
+# The actual parameters and their units may depend on the kind.
+BENDAHARM:UNIT K kjmol/rad**2
+BENDAHARM:UNIT THETA0 deg
+
+# ---------------------------------------------------------------------------
+# KEY          ffatype0 ffatype1 ffatype2  K                 THETA0/COS0/R0
+# ---------------------------------------------------------------------------
+BENDAHARM:PARS     C_CA     C_PC     C_PH  5.7672555540e+02  1.2001943529e+02
+BENDAHARM:PARS     C_CA     O_CA       ZR  1.9542476021e+02  1.3505953227e+02
+BENDAHARM:PARS     C_PC     C_CA     O_CA  1.9466709926e+02  1.1758881523e+02
+BENDAHARM:PARS     C_PC     C_PH     C_PH  4.7801728603e+02  1.1998391325e+02
+BENDAHARM:PARS     C_PC     C_PH     H_PH  3.2194629473e+02  1.1930555704e+02
+BENDAHARM:PARS     C_PH     C_PC     C_PH  4.4374529052e+02  1.1989297296e+02
+BENDAHARM:PARS     C_PH     C_PH     H_PH  3.1506785137e+02  1.2006404666e+02
+BENDAHARM:PARS     C_PH     C_PH        c  4.5507994098e+02  1.2002979123e+02
+BENDAHARM:PARS     C_PH        c     C_PH  1.4717182596e+03  1.2049433842e+02
+BENDAHARM:PARS     H_OH     O_OH       ZR  1.6651318210e+02  1.1345102340e+02
+BENDAHARM:PARS     H_PH     C_PH        c  2.9127167108e+02  1.2021485822e+02
+BENDAHARM:PARS     O_CA     C_CA     O_CA  7.1037392823e+02  1.2387723343e+02
+BENDAHARM:PARS     O_CA       ZR     O_CA  2.3801101238e+02  9.8534598760e+01
+BENDAHARM:PARS     O_CA       ZR     O_OH  7.3963503512e+01  1.0480010806e+02
+BENDAHARM:PARS     O_CA       ZR     O_OX  9.2219381236e+01  1.0986992390e+02
+BENDAHARM:PARS     O_OH       ZR     O_OH  7.0199411368e-14  1.1763352237e+02
+BENDAHARM:PARS     O_OH       ZR     O_OX  7.7412437796e+01  6.8412227168e+01
+BENDAHARM:PARS     O_OX       ZR     O_OX  7.1600732725e-14  8.0680455938e+01
+BENDAHARM:PARS       ZR     O_OH       ZR  7.0093869722e+02  1.0605224796e+02
+BENDAHARM:PARS       ZR     O_OX       ZR  4.7895133494e+02  1.1696515162e+02
+
+# Torsional terms
+# ===============
+
+# The following mathemetical for is supported:
+#  - TORSION:   0.5*A*(1-COS(M*(PHI-PHI0)))
+#  - TORSCHARM: 0.5*A*(COS(PHI)-COS0)**2
+
+# The actual parameters and their units may depend on the kind.
+TORSION:UNIT A kjmol
+TORSION:UNIT PHI0 deg
+TORSCHARM:UNIT A kjmol
+TORSCHARM:UNIT COS0 au
+
+# -------------------------------------------------------------------------------------
+# KEY          ffatype0 ffatype1 ffatype2 ffatype4  M  A                 PHI0/COS0
+# -------------------------------------------------------------------------------------
+TORSION:PARS       C_CA     C_PC     C_PH     C_PH  2  3.4536224451e+01  0.0000000000e+00
+TORSION:PARS       C_CA     C_PC     C_PH     H_PH  2  2.8874306167e+00  0.0000000000e+00
+TORSION:PARS       C_PC     C_CA     O_CA       ZR  2  2.7902663746e+01  0.0000000000e+00
+TORSION:PARS       C_PC     C_PH     C_PH     H_PH  2  2.9715445082e+01  0.0000000000e+00
+TORSION:PARS       C_PC     C_PH     C_PH        c  2  2.3605514677e+01  0.0000000000e+00
+TORSION:PARS       C_PH     C_PC     C_CA     O_CA  2  1.9274257442e+01  0.0000000000e+00
+TORSION:PARS       C_PH     C_PC     C_PH     C_PH  2  2.8510802147e+01  0.0000000000e+00
+TORSION:PARS       C_PH     C_PC     C_PH     H_PH  2  1.7495014049e+01  0.0000000000e+00
+TORSION:PARS       C_PH     C_PH        c     C_PH  2  5.4456492964e+01  0.0000000000e+00
+TORSION:PARS       C_PH        c     C_PH     H_PH  2  5.2852876408e+01  0.0000000000e+00
+TORSION:PARS       H_PH     C_PH     C_PH     H_PH  2  1.5950631548e+01  0.0000000000e+00
+TORSION:PARS       H_PH     C_PH     C_PH        c  2  5.2863935655e+01  0.0000000000e+00
+TORSION:PARS       O_CA     C_CA     O_CA       ZR  2  1.3761300965e+00  0.0000000000e+00
+
+# Out-of-plane terms
+# ===============
+
+# The following mathemetical for is supported:
+#  - OPDIST: 0.5*K*(d - d0)^2
+
+# The actual parameters and their units may depend on the kind.
+OOPDIST:UNIT K kjmol/angstrom**2
+OOPDIST:UNIT D0 angstrom
+
+# -------------------------------------------------------------------------------------
+# KEY        ffatype0 ffatype1 ffatype2 ffatype4  K                 D0
+# -------------------------------------------------------------------------------------
+OOPDIST:PARS     C_CA     C_PH     C_PH     C_PC  2.5266768526e+02  7.3422330854e-03
+OOPDIST:PARS     C_PC     C_PH     H_PH     C_PH  4.2124296079e+02  2.9115102056e-03
+OOPDIST:PARS     C_PC     O_CA     O_CA     C_CA  1.5499478201e+03  1.0105111058e-03
+OOPDIST:PARS     C_PH     H_PH        c     C_PH  1.9949650182e+02  2.7470252843e-03
+OOPDIST:PARS       ZR       ZR       ZR     O_OX  4.0374222386e+02  9.0995551373e-02
+
+
+# Fixed charges
+# =============
+
+# Mathematical form: q_A = q_0A + sum'_B p_BA
+# where q0_A is the reference charge of atom A. It is mostly zero, sometimes a
+# non-zero integer. The total charge of a fragment is the sum of all reference
+# charges. The parameter p_BA is the charge transfered from B to A. Such charge
+# transfers are only carried out over bonds in the FF topology.
+# The charge on an atom is modeled as a Gaussian distribution. The spread on the
+# Gaussian is called the radius R. When the radius is set to zero, point charges
+# will be used instead of smeared charges.
+
+FIXQ:UNIT Q0 e
+FIXQ:UNIT P e
+FIXQ:UNIT R angstrom
+FIXQ:SCALE 1 1.0
+FIXQ:SCALE 2 1.0
+FIXQ:SCALE 3 1.0
+FIXQ:DIELECTRIC 1.0
+
+# Atomic parameters
+# ----------------------------------------------------
+# KEY        label  Q_0A              R_A
+# ----------------------------------------------------
+FIXQ:ATOM       ZR  2.3598636147  2.3670000000
+FIXQ:ATOM     O_OH -1.0470220408  1.1180000000
+FIXQ:ATOM     O_CA -0.6836553216  1.1180000000
+FIXQ:ATOM     O_OX -1.0915240985  1.1180000000
+FIXQ:ATOM     C_PC -0.1561059539  1.1630000000
+FIXQ:ATOM     C_CA  0.7876145457  1.1630000000
+FIXQ:ATOM     C_PH -0.1180988661  1.1630000000
+FIXQ:ATOM        c -0.0998392772  1.1630000000
+FIXQ:ATOM     H_PH  0.1378386334  0.7240000000
+FIXQ:ATOM     H_OH  0.4868239629  0.7240000000
