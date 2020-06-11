@@ -1,0 +1,127 @@
+# BONDHARM
+#---------
+BONDHARM:UNIT  K kjmol/A**2
+BONDHARM:UNIT  R0 A
+
+BONDHARM:PARS      C_CA      O_CA  4.3824151979e+03  1.2693345657e+00
+BONDHARM:PARS        C1      C_CA  2.5851678021e+03  1.4441034696e+00
+BONDHARM:PARS        C3        C3  8.5383558236e+03  1.2205605775e+00
+BONDHARM:PARS        C1        C2  9.1014958880e+03  1.2137994430e+00
+BONDHARM:PARS        C2        C3  3.8739593939e+03  1.3481210231e+00
+BONDHARM:PARS      O_OH        ZR  3.6239870164e+02  2.2318796467e+00
+BONDHARM:PARS      O_CA        ZR  8.3124301512e+02  2.1413653039e+00
+BONDHARM:PARS      O_OX        ZR  7.7826775180e+02  2.1060856124e+00
+BONDHARM:PARS      H_OH      O_OH  5.0263533835e+03  9.9675082423e-01
+
+
+# BENDAHARM
+#----------
+BENDAHARM:UNIT  K kjmol/rad**2
+BENDAHARM:UNIT  THETA0 deg
+
+BENDAHARM:PARS        C1      C_CA      O_CA  1.9813323706e+02  1.1622802454e+02
+BENDAHARM:PARS      O_CA      C_CA      O_CA  6.1045127189e+02  1.2396313000e+02
+BENDAHARM:PARS        ZR      O_OH        ZR  4.5108116335e+02  1.0592991986e+02
+BENDAHARM:PARS      C_CA      O_CA        ZR  2.8156209646e+02  1.3801979118e+02
+BENDAHARM:PARS      O_OH        ZR      O_OX  5.0570651120e+02  5.8407171442e+01
+BENDAHARM:PARS        ZR      O_OX        ZR  4.8567719986e+02  1.2256270624e+02
+BENDAHARM:PARS      H_OH      O_OH        ZR  1.7756362959e+02  1.1131703070e+02
+BENDAHARM:PARS      O_OX        ZR      O_OX  7.4524377242e+01  1.0662242879e+02
+
+
+# BENDCOS
+#--------
+BENDCOS:UNIT  A kjmol
+BENDCOS:UNIT  PHI0 deg
+
+BENDCOS:PARS        C1        C2        C3  1 4.7168184695e+02  1.8000000000e+02
+BENDCOS:PARS        C2        C3        C3  1 2.7304892310e+02  1.8000000000e+02
+BENDCOS:PARS        C2        C1      C_CA  1 2.8021377445e+02  1.8000000000e+02
+
+
+# TORSION
+#--------
+TORSION:UNIT  A kjmol
+TORSION:UNIT  PHI0 deg
+
+TORSION:PARS      O_CA      C_CA      O_CA        ZR  2 5.7001758018e+00  0.0000000000e+00
+TORSION:PARS        C1      C_CA      O_CA        ZR  2 2.9809180816e+01  0.0000000000e+00
+
+
+# OOPDIST
+#--------
+OOPDIST:UNIT  K kjmol/A**2
+OOPDIST:UNIT  D0 A
+
+OOPDIST:PARS        C1      O_CA      O_CA      C_CA  1.6734750363e+03  0.0000000000e+00
+
+
+#Fixed charges
+#---------------
+
+FIXQ:UNIT Q0 e
+FIXQ:UNIT P e
+FIXQ:UNIT R angstrom
+FIXQ:SCALE 1 1.0
+FIXQ:SCALE 2 1.0
+FIXQ:SCALE 3 1.0
+FIXQ:DIELECTRIC 1.0
+
+# Atomic parameters
+# ----------------------------------------------------
+# KEY        label  Q_0A              R_A
+# ----------------------------------------------------
+FIXQ:ATOM       ZR  0.0000000000000   2.3670000000
+FIXQ:ATOM     O_OH  0.0000000000000   1.1180000000
+FIXQ:ATOM     O_OX  0.0000000000000   1.1180000000
+FIXQ:ATOM     O_CA  0.0000000000000   1.1180000000
+FIXQ:ATOM     C_CA  0.0000000000000   1.1630000000
+FIXQ:ATOM       C1  0.0000000000000   1.1630000000
+FIXQ:ATOM       C2  0.0000000000000   1.1630000000
+FIXQ:ATOM       C3  0.0000000000000   1.1630000000
+FIXQ:ATOM     H_OH  0.0000000000000   0.7240000000
+
+# Bond parameters
+# ----------------------------------------------------
+# KEY         label0   label1           P_AB          
+# ----------------------------------------------------
+FIXQ:BOND        C1        C2  -0.0485178890
+FIXQ:BOND        C2        C3   0.0047908172
+FIXQ:BOND      C_CA      O_CA   0.3562143511
+FIXQ:BOND        C1      C_CA  -0.1382016899
+FIXQ:BOND        C3        C3   0.0000000000
+FIXQ:BOND      O_CA        ZR  -0.3148189271
+FIXQ:BOND      O_OX        ZR  -0.3636593853
+FIXQ:BOND      H_OH      O_OH   0.4884071203
+FIXQ:BOND      O_OH        ZR  -0.1875074974
+
+
+# van der Waals
+#==============
+
+# The following mathemetical form is supported:
+#  - MM3:   EPSILON*(1.84e5*exp(-12*r/SIGMA)-2.25*(SIGMA/r)^6)
+#  - LJ:    4.0*EPSILON*((SIGMA/r)^12 - (SIGMA/r)^6)
+#
+# Remark:
+#  In MM3, if ONLYPAULI=1 then only the pauli term will be used.
+#  If ONLYPAULI=0, the full MM3 expression is used with 12.
+
+MM3:UNIT SIGMA angstrom
+MM3:UNIT EPSILON kcalmol
+MM3:SCALE 1 0.0
+MM3:SCALE 2 0.0
+MM3:SCALE 3 1.0
+
+# ---------------------------------------------
+# KEY      ffatype  SIGMA  EPSILON  ONLYPAULI
+# ---------------------------------------------
+MM3:PARS      ZR     2.540   0.300      0
+MM3:PARS    O_CA     1.820   0.059      0
+MM3:PARS    O_OX     1.820   0.059      0
+MM3:PARS    O_OH     1.820   0.059      0
+MM3:PARS    C_CA     1.940   0.056      0
+MM3:PARS      C1     1.940   0.056      0
+MM3:PARS      C2     1.940   0.056      0
+MM3:PARS      C3     1.940   0.056      0
+MM3:PARS    H_OH     1.600   0.016      0

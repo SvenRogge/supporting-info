@@ -1,0 +1,56 @@
+#Fixed charges
+#---------------
+
+FIXQ:UNIT Q0 e
+FIXQ:UNIT P e
+FIXQ:UNIT R angstrom
+FIXQ:SCALE 1 1.0
+FIXQ:SCALE 2 1.0
+FIXQ:SCALE 3 1.0
+FIXQ:DIELECTRIC 1.0
+
+# Atomic parameters
+# ----------------------------------------------------
+# KEY        label  Q_0A              R_A
+# ----------------------------------------------------
+FIXQ:ATOM       ZR  0.0000000000000   2.3670000000
+FIXQ:ATOM     O_OH  0.0000000000000   1.1180000000
+FIXQ:ATOM     O_OX  0.0000000000000   1.1180000000
+FIXQ:ATOM     O_CA  0.0000000000000   1.1180000000
+FIXQ:ATOM     C_CA  0.0000000000000   1.1630000000
+FIXQ:ATOM       C1  0.0000000000000   1.1630000000
+FIXQ:ATOM       C2  0.0000000000000   1.1630000000
+FIXQ:ATOM       C3  0.0000000000000   1.1630000000
+FIXQ:ATOM       C4  0.0000000000000   1.1630000000
+FIXQ:ATOM       C5  0.0000000000000   1.1630000000
+FIXQ:ATOM       C6  0.0000000000000   1.1630000000
+FIXQ:ATOM       C7  0.0000000000000   1.1630000000
+FIXQ:ATOM       C8  0.0000000000000   1.1630000000
+FIXQ:ATOM     c_ca  0.0000000000000   1.1630000000
+FIXQ:ATOM     H_OH  0.0000000000000   0.7240000000
+FIXQ:ATOM     h_ca  0.0000000000000   0.7240000000
+FIXQ:ATOM       H2  0.0000000000000   0.7240000000
+FIXQ:ATOM       H3  0.0000000000000   0.7240000000
+
+# Bond parameters
+# ----------------------------------------------------
+# KEY         label0   label1           P_AB          
+# ----------------------------------------------------
+FIXQ:BOND        C7        C8   0.1164145518
+FIXQ:BOND      c_ca      h_ca  -0.0311143229
+FIXQ:BOND        C3        C4   0.0181131891
+FIXQ:BOND        C1        C2  -0.0394299634
+FIXQ:BOND      O_OX        ZR  -0.3636405319
+FIXQ:BOND      O_CA      c_ca  -0.3425666111
+FIXQ:BOND        C2        H2  -0.1547420875
+FIXQ:BOND      O_CA        ZR  -0.3154025667
+FIXQ:BOND        C2        C3   0.0231590428
+FIXQ:BOND        C3        H3  -0.1547205709
+FIXQ:BOND      C_CA      O_CA   0.3584055099
+FIXQ:BOND      O_OH        ZR  -0.1865602898
+FIXQ:BOND        C1      C_CA  -0.0648741844
+FIXQ:BOND        C5        C6   0.1040182688
+FIXQ:BOND      H_OH      O_OH   0.4904944122
+FIXQ:BOND        C8      C_CA  -0.1168884926
+FIXQ:BOND        C4        C5   0.1450256709
+FIXQ:BOND        C6        C7   0.0405114446

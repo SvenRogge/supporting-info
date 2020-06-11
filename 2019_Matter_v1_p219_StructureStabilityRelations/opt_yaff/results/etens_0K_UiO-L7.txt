@@ -1,0 +1,76 @@
+C11 [GPa]:		26.2915157872
+C12 [GPa]:		11.8635942948
+C13 [GPa]:		11.9593144358
+C14 [GPa]:		0.000492202971545
+C15 [GPa]:		0.00043913260766
+C16 [GPa]:		-0.000258593450035
+C22 [GPa]:		26.0630426282
+C23 [GPa]:		11.8624720971
+C24 [GPa]:		-0.00649956778382
+C25 [GPa]:		0.00110967049362
+C26 [GPa]:		-2.57593905016e-05
+C33 [GPa]:		26.1644134703
+C34 [GPa]:		0.00114693701488
+C35 [GPa]:		0.00292965889129
+C36 [GPa]:		1.12211886104e-05
+C44 [GPa]:		10.4720924234
+C45 [GPa]:		3.05270234813e-07
+C46 [GPa]:		-6.31955122664e-05
+C55 [GPa]:		10.4720831572
+C56 [GPa]:		-4.02498784134e-05
+C66 [GPa]:		10.4726100292
+--------------------------------------
+Residual (lstsq) = [  2.50596631e-12]
+Rank A = 21
+Singuliere waarden A = [ 0.03286335  0.03286335  0.03286335  0.03286335  0.03286335  0.03286335
+  0.03286335  0.03286335  0.03286335  0.03286335  0.03286335  0.03286335
+  0.03286335  0.03286335  0.03286335  0.0232379   0.0232379   0.0232379
+  0.0232379   0.0232379   0.0232379 ]
+Strain 0 opt runs: 371
+Strain 1 opt runs: 369
+Strain 2 opt runs: 5000
+Strain 3 opt runs: 462
+Strain 4 opt runs: 462
+Strain 5 opt runs: 456
+Strain 6 opt runs: 390
+Strain 7 opt runs: 403
+Strain 8 opt runs: 385
+Strain 9 opt runs: 455
+Strain 10 opt runs: 461
+Strain 11 opt runs: 456
+Strain 12 opt runs: 385
+Strain 13 opt runs: 383
+Strain 14 opt runs: 364
+Strain 15 opt runs: 495
+Strain 16 opt runs: 496
+Strain 17 opt runs: 500
+Strain 18 opt runs: 470
+Strain 19 opt runs: 469
+Strain 20 opt runs: 430
+Strain 21 opt runs: 506
+Strain 22 opt runs: 497
+Strain 23 opt runs: 489
+Strain 24 opt runs: 403
+Strain 25 opt runs: 384
+Strain 26 opt runs: 368
+Strain 27 opt runs: 513
+Strain 28 opt runs: 515
+Strain 29 opt runs: 510
+Strain 30 opt runs: 5000
+Strain 31 opt runs: 506
+Strain 32 opt runs: 609
+Strain 33 opt runs: 514
+Strain 34 opt runs: 517
+Strain 35 opt runs: 509
+Strain 36 opt runs: 404
+Strain 37 opt runs: 385
+Strain 38 opt runs: 371
+Strain 39 opt runs: 526
+Strain 40 opt runs: 521
+Strain 41 opt runs: 522
+Strain 42 opt runs: 5000
+Strain 43 opt runs: 5000
+Strain 44 opt runs: 5000
+Strain 45 opt runs: 521
+Strain 46 opt runs: 554
+Strain 47 opt runs: 521

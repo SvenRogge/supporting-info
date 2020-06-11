@@ -1,0 +1,49 @@
+#Fixed charges
+#---------------
+
+FIXQ:UNIT Q0 e
+FIXQ:UNIT P e
+FIXQ:UNIT R angstrom
+FIXQ:SCALE 1 1.0
+FIXQ:SCALE 2 1.0
+FIXQ:SCALE 3 1.0
+FIXQ:DIELECTRIC 1.0
+
+# Atomic parameters
+# ----------------------------------------------------
+# KEY        label  Q_0A              R_A
+# ----------------------------------------------------
+FIXQ:ATOM       ZR  0.0000000000000   2.3670000000
+FIXQ:ATOM     O_OH  0.0000000000000   1.1180000000
+FIXQ:ATOM     O_OX  0.0000000000000   1.1180000000
+FIXQ:ATOM     O_CA  0.0000000000000   1.1180000000
+FIXQ:ATOM     C_CA  0.0000000000000   1.1630000000
+FIXQ:ATOM       C1  0.0000000000000   1.1630000000
+FIXQ:ATOM       C2  0.0000000000000   1.1630000000
+FIXQ:ATOM       C3  0.0000000000000   1.1630000000
+FIXQ:ATOM       N1  0.0000000000000   1.1048000000
+FIXQ:ATOM       N2  0.0000000000000   1.1048000000
+FIXQ:ATOM       N3  0.0000000000000   1.1048000000
+FIXQ:ATOM       N4  0.0000000000000   1.1048000000
+FIXQ:ATOM     c_ca  0.0000000000000   1.1630000000
+FIXQ:ATOM     H_OH  0.0000000000000   0.7240000000
+FIXQ:ATOM     h_ca  0.0000000000000   0.7240000000
+
+# Bond parameters
+# ----------------------------------------------------
+# KEY         label0   label1           P_AB          
+# ----------------------------------------------------
+FIXQ:BOND        C1        N1   0.1872349218
+FIXQ:BOND        N4        N4   0.0000000000
+FIXQ:BOND      O_OX        ZR  -0.3638204943
+FIXQ:BOND      O_CA        ZR  -0.3149075579
+FIXQ:BOND        C2        C3   0.0003938540
+FIXQ:BOND     cl_ca     hl_ca  -0.0331144143
+FIXQ:BOND        N1        N2   0.0054301171
+FIXQ:BOND      C_CA      O_CA   0.3151367628
+FIXQ:BOND      H_OH      O_OH   0.4908888365
+FIXQ:BOND        C1      C_CA  -0.0650955817
+FIXQ:BOND        C2        N2   0.1696517726
+FIXQ:BOND      O_OH        ZR  -0.1869527154
+FIXQ:BOND        C3        N4   0.1744355312
+FIXQ:BOND      O_CA     cl_ca  -0.3431659693
