@@ -1,0 +1,27 @@
+General:
+    SYSTEM = ZIF8
+    ISTART = 0
+    ISMEAR = 0   ! 0: Gaussian -> semicond/insulator ; 1-N: MP; -5: Tetra+Blochl -> metal/very accurate energy/forces
+    SIGMA = 0.05
+    EDIFF = 1.0E-8
+    ENCUT = 800  ! 
+    NELM = 200
+    PREC = Accurate
+    NELMIN = 8
+    LWAVE = .FALSE.
+    LASPH = .TRUE. 
+    LREAL = AUTO
+    ISYM = 0
+
+Van der Waals Interaction (vasp 5.3.5 patched verion):
+   IVDW = 12      ! switches between 0:off, 1: DFT-D3 and 2: TS-VDW (default=1)
+
+dynamic:
+    IBRION = 2  ! -1: Fix atoms; 0: MD; 2: ConjGrad relax
+    NSW    = 500      ! Number electronic steps
+    ISIF   = 4     # relax ions, no change cell shape, no change cell volume (volume changes require ENCUT*1.3)
+    EDIFFG = 1.0E-7
+
+parallel:
+   NPAR=1
+

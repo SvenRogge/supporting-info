@@ -1,0 +1,45 @@
+SimulationType                MonteCarlo
+NumberOfCycles                5000000
+NumberOfInitializationCycles  50000
+PrintEvery                    500
+
+ContinueAfterCrash            no
+WriteBinaryRestartFileEvery   1000
+
+Forcefield                    __forcefield__
+RemoveAtomNumberCodeFromLabel no
+CutOffVDW                     __rcut__
+ChargeMethod                  __chargemethod__
+EwaldPrecision                1e-6
+OmitAdsorbateAdsorbateCoulombInteractions __omitaacoulomb__
+
+Framework 0
+FrameworkName                 __framework__
+UnitCells   __nx__ __ny__ __nz__
+
+ExternalTemperature 298.0
+ExternalPressure  1e5
+
+NumberOfGrids __ngrids__
+GridTypes __guestatoms__
+SpacingVDWGrid 0.15
+SpacingCoulombGrid __coulombspacing__
+UseTabularGrid yes
+
+ComputeDensityProfile3DVTKGrid yes
+WriteDensityProfile3DVTKGridEvery 500
+DensityProfile3DVTKGridPoints 150 150 150
+AverageDensityOverUnitCellsVTK yes
+DensityAveragingTypeVTK UnitCell
+
+Movies yes
+WriteMoviesEvery 500
+
+
+
+Component 0 MoleculeName             __guest0__
+            MoleculeDefinition
+            TranslationProbability   0.3333333333
+            RotationProbability      0.3333333333
+            ReinsertionProbability   0.3333333333
+            CreateNumberOfMolecules  __nmol__

@@ -1,0 +1,7 @@
+	Conversion factor molecules/unit cell -> mol/kg:       0.3661845232 [-]
+	Conversion factor molecules/unit cell -> gr/gr:      10.2604903407 [-]
+	Conversion factor molecules/unit cell -> cm^3 STP/gr:       8.2076510227 [-]
+	Conversion factor molecules/unit cell -> cm^3 STP/cm^3:       7.5949554145 [-]
+	Conversion factor mol/kg -> cm^3 STP/gr:      22.4139757476 [-]
+	Conversion factor mol/kg -> cm^3 STP/cm^3:      20.7407875888 [-]
+Conversion factor from molecule/unit cell -> kmol/m^3: 0.0423561, kmol/m^3 accesible pore volume: inf
