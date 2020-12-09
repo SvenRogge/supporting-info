@@ -1,0 +1,49 @@
+#IO
+fn_yaff                 :   pars_cov.txt
+fn_charmm22_prm         :   None
+fn_charmm22_psf         :   None
+fn_sys                  :   system.chk
+plot_traj               :   final
+xyz_traj                :   False
+fn_traj                 :   traj.cp
+log_level               :   medium
+log_file                :   quickff.log
+
+#Program
+program_mode            :   DeriveFF
+
+#FF config
+only_traj               :   PT_ALL
+ffatypes                :   None
+ei                      :   pars_ei.txt
+ei_rcut                 :   20*angstrom
+vdw                     :   pars_lj.txt
+vdw_rcut                :   12*angstrom
+covres                  :   None
+
+excl_bonds              :   None
+excl_bends              :   None
+excl_dihs               :   None
+excl_oopds              :   None
+
+do_hess_mass_weighting  :   True
+do_hess_negfreq_proj    :   False
+do_cross_svd            :   True
+
+do_bonds                :   True
+do_bends                :   True
+do_dihedrals            :   True
+do_oops                 :   True
+do_cross_ASS            :   True
+do_cross_ASA            :   True
+do_cross_DSS            :   False
+do_cross_DSD            :   False
+do_cross_DAA            :   False
+do_cross_DAD            :   False
+
+bond_term               :   BondHarm
+bend_term               :   BendAHarm
+
+do_squarebend           :   True
+do_bendclin             :   True
+do_sqoopdist_to_oopdist :   True

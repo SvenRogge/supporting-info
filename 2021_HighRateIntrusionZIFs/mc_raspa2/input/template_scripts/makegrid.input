@@ -1,0 +1,26 @@
+SimulationType                MakeGrid
+
+Forcefield                    __forcefield__
+RemoveAtomNumberCodeFromLabel no
+CutOffVDW                     __rcut__
+ChargeMethod                  __chargemethod__
+EwaldPrecision                1e-6
+OmitAdsorbateAdsorbateCoulombInteractions __omitaacoulomb__
+
+
+Framework 0
+FrameworkName                 __framework__
+UnitCells   __nx__ __ny__ __nz__
+
+NumberOfGrids __ngrids__
+GridTypes __guestatoms__
+SpacingVDWGrid 0.15
+SpacingCoulombGrid __coulombspacing__
+
+Component 0 MoleculeName             __guest__
+            MoleculeDefinition
+            TranslationProbability   0.5
+            RotationProbability      0.5
+            ReinsertionProbability   0.5
+            SwapProbability          1.0
+            CreateNumberOfMolecules  0
