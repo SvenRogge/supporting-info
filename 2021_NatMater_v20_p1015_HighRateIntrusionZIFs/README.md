@@ -3,9 +3,11 @@
 
 This GitHub repository contains the input and raw output data accompanying the manuscript
 
-**"High rate nanofluidic energy absorption in porous zeolitic frameworks"**
+**"High-rate nanofluidic energy absorption in porous zeolitic frameworks"**
 
 by Yueting Sun, Sven M. J. Rogge, Aran Lamaire, Steven Vandenbrande, Jelle Wieme, Clive R. Siviour, Veronique Van Speybroeck, and Jin-Chong Tan.
+
+This work was published in *Nat. Mater.*, **2021**, *20* (7): 1015-1023 (DOI: [10.1038/s41563-021-00977-6](https://dx.doi.org/10.1038/s41563-021-00977-6)).
 
 The data presented here is licensed under the CC BY-SA 4.0 international license, a copy of which can be found [here](https://creativecommons.org/licenses/by-sa/4.0/). Under this license, you can copy and redistribute the material in any medium or format as long as you give appropriate credit, provide a link to the license, and indicate if changes were made.
 
