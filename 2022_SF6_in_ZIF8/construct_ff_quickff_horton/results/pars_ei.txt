@@ -1,0 +1,19 @@
+#Fixed charges
+#---------------
+
+FIXQ:UNIT Q0 e
+FIXQ:UNIT P e
+FIXQ:UNIT R angstrom
+FIXQ:SCALE 1 0.0
+FIXQ:SCALE 2 0.0
+FIXQ:SCALE 3 1.0
+FIXQ:DIELECTRIC 1.0
+
+# Atomic parameters
+# ----------------------------------------------------
+# KEY        label  Q_0A              R_A
+# ----------------------------------------------------
+FIXQ:ATOM        S  1.8096533697  1.6011000000
+FIXQ:ATOM       F3 -0.3016611010  1.1096000000
+FIXQ:ATOM       F1 -0.3016811307  1.1096000000
+FIXQ:ATOM       F2 -0.3016655136  1.1096000000
