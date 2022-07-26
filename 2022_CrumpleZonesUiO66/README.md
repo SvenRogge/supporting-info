@@ -42,7 +42,7 @@ The subfolder **NVsT** contains the scripts used for the $(N, V, \bm \sigma_a = 
 
 #### CNXX
 
-The subfolder **CNXX/ff** contains the periodic force field files used for the specific structure. The files `pars_cov.txt`, `pars_ei.txt`, and `pars_mm3.txt` contain the covalent, electrostatic, and van der Waals interactions, respectively. The file `lammps_smoothei2.table` is generated to calculate the long-range interactions more efficiently with LAMMPS.
+The subfolder **CNXX/ff** contains the periodic force field files used for the specific structure. The files `pars_cov.txt`, `pars_ei.txt`, and `pars_mm3.txt` contain the covalent, electrostatic, and van der Waals interactions, respectively.
 
 The subfolder **CNXX/NPsT/input** contains the `init.chk` file, which describes the force-field optimized structure of the specified material. This is used as input structure for the $(N, P, \bm \sigma_a = \bm 0, T)$ simulations.
 
