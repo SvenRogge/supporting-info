@@ -2,9 +2,11 @@
 
 This GitHub repository contains the input and raw output data accompanying the manuscript
 
-**Exploiting gating effect in MOFs for gas storage at ambient conditions in air: Case study of SF<sub>6</sub> storage in ZIF-8**
+**MOFs for long-term gas storage: exploiting kinetic trapping in ZIF-8 for on-demand and stimuli-controlled gas release**
 
 by Karsten Heinz, Sven M.J. Rogge, Andreas Kalytta-Mewes, Dirk Volkmer, and Hana Bunzen.
+
+This work was published in *Inorg. Chem. Front.*, **2023** (DOI: [10.1039/D3QI01007D](https://dx.doi.org/10.1039/D3QI01007D)).
 
 The data presented here is licensed under the CC BY-SA 4.0 international license, a copy of which can be found [here](https://creativecommons.org/licenses/by-sa/4.0/). Under this license, you can copy and redistribute the material in any medium or format as long as you give appropriate credit, provide a link to the license, and indicate if changes were made.
 
