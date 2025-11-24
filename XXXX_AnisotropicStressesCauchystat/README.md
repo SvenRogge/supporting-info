@@ -5,7 +5,7 @@
 
 This GitHub repository contains the input data accompanying the manuscript.
 
-**Challenges in modelling anisotropic stresses in soft polymorphic materials**
+**Challenges and best practices in modelling anisotropic stresses in soft polymorphic materials**
 
 by Jelto Neirynck, Sander Geerinckx, and Sven M. J. Rogge.
 
