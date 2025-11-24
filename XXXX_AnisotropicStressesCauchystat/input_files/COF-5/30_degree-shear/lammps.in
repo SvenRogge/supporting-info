@@ -76,13 +76,5 @@ dump 1 all custom 100 positions.dat x y z
 timestep 0.5 # in time units
 velocity all create 300.0 1 # initial temperature in Kelvin and random seed (example=1)
 fix 1 all npt/cauchy temp 300.0 300.0 100.0 x 0 0 1000 y 0 0 1000 z 0 0 1000 xy 0 0 1000 xz 173.200 173.200 1000 yz 100.000 100.000 1000 alpha 0.01 nreset 10 #production run at 200 atm in 30 degree direction
-#fix_modify 1 energy yes # Add thermo/barostat contributions to energy
-#compute Tw all temp
-#compute stress all pressure thermo_temp
-#compute 1 all smd/tlsph/stress
-#compute p all reduce sum c_peratom[1] c_peratom[2] c_peratom[3]
-#dump m2 all movie 100 movie.mpg type type size 640 480
-#dump myDump all atom 100 dump.lammpstrj
 dump x1 all xyz 100 dump.xyz
-#dump p1 all custom 100 dump.stress id type d_stress
 run 600000

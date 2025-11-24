@@ -3,7 +3,7 @@
 
 # Table of contents
 
-This GitHub repository contains the input data accompanying the manuscript
+This GitHub repository contains the input data accompanying the manuscript.
 
 **Challenges in modelling anisotropic stresses in soft polymorphic materials**
 
