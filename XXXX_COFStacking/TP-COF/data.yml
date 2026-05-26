@@ -1,0 +1,36 @@
+CONFINEMENT_THR: 0.33
+HISTOGRAM_BIN_WIDTHS:
+- 0.1
+- 0.1
+KAPPA_GROWTH_FACTOR: 2.0
+MAX_KAPPA: 300
+MAX_LAYERS: 2
+OVERLAP_THR: 0.5
+cof2d: true
+cv_units:
+- angstrom
+- angstrom
+edges:
+  max:
+  - 21.0
+  - 21.0
+  min:
+  - -21.0
+  - -21.0
+fes_unit: kjmol
+h5steps: 20
+kappas:
+- 1.0
+- 1.0
+mdsteps: 200000
+mode: application
+plot: false
+press: 3.3989315827578425e-09
+runup: 500
+spacings:
+- 1.5
+- 1.5
+temp: 300.0
+timceon_baro: 41341.37333664682
+timecon_thermo: 4134.137333664683
+timestep: 20.670686668323413
