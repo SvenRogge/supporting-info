@@ -1,0 +1,84 @@
+##############################General settings##############################
+units           real
+atom_style      full
+boundary        p p p
+dielectric      1
+
+##############################Force field and system specification##############################
+special_bonds   lj 0.000000 1.000000 1.000000 coul 0.000000 1.000000 1.000000
+#Note that when a table is used, it is possible that the
+#topology might have been adapted to correctly include
+#Gaussian electrostatics in LAMMPS. The scaling rules might
+#need to be different from what is specified in the Yaff parameter file
+pair_style hybrid/overlay coul/long   15.00000000 table spline 5000
+pair_modify tail yes
+bond_style      hybrid mm3 table spline 1000
+angle_style     hybrid mm3 cosine/periodic cross
+dihedral_style  fourier
+improper_style  distharm
+box tilt large
+
+read_data       lammps.data       # Data file location
+pair_coeff * * coul/long
+pair_coeff 1 1 table lammps.table AL_00000---AL_00000
+pair_coeff 1 2 table lammps.table C_CA_00000---AL_00000
+pair_coeff 1 3 table lammps.table C_PC_00000---AL_00000
+pair_coeff 1 4 table lammps.table C_PH_00000---AL_00000
+pair_coeff 1 5 table lammps.table H_HY_00000---AL_00000
+pair_coeff 1 6 table lammps.table H_PH_00000---AL_00000
+pair_coeff 1 7 table lammps.table O_CA_00000---AL_00000
+pair_coeff 1 8 table lammps.table O_HY_00000---AL_00000
+pair_coeff 2 2 table lammps.table C_CA_00000---C_CA_00000
+pair_coeff 2 3 table lammps.table C_PC_00000---C_CA_00000
+pair_coeff 2 4 table lammps.table C_PH_00000---C_CA_00000
+pair_coeff 2 5 table lammps.table H_HY_00000---C_CA_00000
+pair_coeff 2 6 table lammps.table H_PH_00000---C_CA_00000
+pair_coeff 2 7 table lammps.table O_CA_00000---C_CA_00000
+pair_coeff 2 8 table lammps.table O_HY_00000---C_CA_00000
+pair_coeff 3 3 table lammps.table C_PC_00000---C_PC_00000
+pair_coeff 3 4 table lammps.table C_PH_00000---C_PC_00000
+pair_coeff 3 5 table lammps.table H_HY_00000---C_PC_00000
+pair_coeff 3 6 table lammps.table H_PH_00000---C_PC_00000
+pair_coeff 3 7 table lammps.table O_CA_00000---C_PC_00000
+pair_coeff 3 8 table lammps.table O_HY_00000---C_PC_00000
+pair_coeff 4 4 table lammps.table C_PH_00000---C_PH_00000
+pair_coeff 4 5 table lammps.table H_HY_00000---C_PH_00000
+pair_coeff 4 6 table lammps.table H_PH_00000---C_PH_00000
+pair_coeff 4 7 table lammps.table O_CA_00000---C_PH_00000
+pair_coeff 4 8 table lammps.table O_HY_00000---C_PH_00000
+pair_coeff 5 5 table lammps.table H_HY_00000---H_HY_00000
+pair_coeff 5 6 table lammps.table H_PH_00000---H_HY_00000
+pair_coeff 5 7 table lammps.table O_CA_00000---H_HY_00000
+pair_coeff 5 8 table lammps.table O_HY_00000---H_HY_00000
+pair_coeff 6 6 table lammps.table H_PH_00000---H_PH_00000
+pair_coeff 6 7 table lammps.table O_CA_00000---H_PH_00000
+pair_coeff 6 8 table lammps.table O_HY_00000---H_PH_00000
+pair_coeff 7 7 table lammps.table O_CA_00000---O_CA_00000
+pair_coeff 7 8 table lammps.table O_HY_00000---O_CA_00000
+pair_coeff 8 8 table lammps.table O_HY_00000---O_HY_00000
+kspace_style    pppm 1e-7      # Ewald accuracy
+neighbor        2.0 multi
+neigh_modify    every 2 delay 4 check yes
+
+##############################Output settings##############################
+thermo 10       # Provide output every n steps
+thermo_style custom step time etotal ke temp pe emol cella cellb cellc pxx pyy pzz pxy pxz pyz vol press
+dump 2 all custom 100 positions.dat x y z
+dump atomdump all atom 100 dump.lammpstrj
+timestep 0.5 # in time units
+velocity all create 300 1 # initial temperature in Kelvin and random seed (example=1)
+fix 1 all npt/cauchy temp 300 300 100.0 x 0.0 0.0 1000 y 0.0 0.0 1000 z 0.0 0.0 1000 xy 0.0 0.0 1000 xz 0.0 0.0 1000 yz 0.0 0.0 1000 alpha 0.1 nreset 10 # equilibration to 0Mpa
+run 37500
+unfix 1
+fix 2 all npt/cauchy temp 300 300 100.0 x 0.0 0.0 1000 y 0.0 0.0 1000 z 0.0 0.0 1000 xy 0.0 0.0 1000 xz 0.0 0.0 1000 yz 0.0 0.0 1000 alpha 0.01 nreset 10 # equilibration to 0Mpa
+run 37500
+unfix 2
+fix 3 all npt/cauchy temp 300 300 100.0 x 0.0 0.0 1000 y 0.0 0.0 1000 z 0.0 0.0 1000 xy 0.0 0.0 1000 xz 0.0 0.0 1000 yz 0.0 0.0 1000 alpha 0.001 nreset 10 # equilibration to 0Mpa
+run 75000
+unfix 3
+fix 4 all npt/cauchy temp 300 300 100.0 x 0.0 0.0 1000 y 0.0 0.0 1000 z 0.0 0.0 1000 xy 0.0 0.0 1000 xz 0.0 0.0 1000 yz 0.0 0.0 1000 alpha 0.0001 nreset 10 # equilibration to 0Mpa
+run 150000
+unfix 4
+fix 5 all npt/cauchy temp 300.0 300.0 100.0 x -200 -200 1000 y 0.0 0.0 1000 z 0.0 0.0 1000 xy 0.0 0.0 1000 xz 0.0 0.0 1000 yz 0.0 0.0 1000 alpha 0.010000 nreset 10 # production run at -200 atm in x direction
+dump x1 all xyz 100 dump.xyz
+run 600000
